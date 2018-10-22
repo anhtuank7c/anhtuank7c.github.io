@@ -7,193 +7,201 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Nguyen Anh Tuan
+    tagline: Freelancer, Community Administrator
+    avatar: https://github.com/anhtuank7c.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: anhtuank7c@hotmail.com
+    phone: (+84)982 8080 65
+    website: anhtuank7c.github.io #do not add http://
+    linkedin: nguyễn-anh-tuấn-49504952
+    github: anhtuank7c
+    gitlab: anhtuank7c
+    bitbucket: anhtuank7c
+    twitter: '@anhtuank7c'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
+      - idiom: Vietnamese
+        level: native
+
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+        level: Good
         
     interests:
-      - item: Climbing
+      - item: Swimming
         link:
 
-      - item: Snowboarding
+      - item: Playing PUBG game
         link:
 
       - item: Cooking
         link:
 
+      - item: Music
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I'm 30 years old Freelancer and Community Administrator of React Native Viet Nam and senior developer from the cozy street of Ha Noi. I have more than 8 years of work experience in various positions.
+      I love coding, music and swimming, football, playing PUBG
+      My visionary believed that teamwork is essential to delivering great software.
 
-      Second paragraph if required.
+      You can view more about <a href='https://github.com/anhtuank7c' target='_blank'>My Github Profile</a>, <a href='https://github.com/react-native-vietnam' target='_blank'>React Native Vietname Github</a>, <a href='http://bit.ly/2yeOby4' target='_blank'>React Native Vietname Slack Channel</a>
+
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Bachelor's degree
+      university: Ho Chi Minh University of Technology
       time: 2007 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      Engineering Technology
 
-          - Bullet point
-          - Bullet point 
+    - degree: APTECH Certified Network Administrator
+      university: Aprotrain Aptech
+      time: 2007 - 2008
+      details: |
+      Network Administrator
+
+    - degree: Database Administrator
+      university: COMMIT
+      time: 2008 - 2009
+      details: |
+      Oracle Database Administrator 11g
+
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Freelancer Team Leader, Developer
+      time: Oct-2018 - Present
+      company: Freelancer
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Project leader, Technical manager, Community Administrator: 
+        <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>
+        <a href='https://www.facebook.com/groups/reactnativevietnam/' target='_blank'>React Native Vietnam</a>
+        <a href='http://bit.ly/2yeOby4' target='_blank'>React Native Vietnam Slack Channel</a>
 
-          - Bullet point
-          - Bullet point 
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Founder & Technical Manager
+      time: Aug-2017 - Sep-2018
+      company: Agiletech Viet Nam
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Project leader, Technical manager: 
+        <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>
+        <a href='https://cakephp.org/' target='_blank'>CakePHP</a>"
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: IT Support
+      time: 2013/09 - 2017/08
+      company: CGV Vietnam
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        PHP web programming with various framework such as CakePHP, Mobile app
+    - role: Project Manager
+      time: 2012/02 - 2013/05
+      company: FTL
+      details: |
+        Java core, game server
+    - role: Java Developer
+      time: 2011/05 - 2012/01
+      company: FTL
+      details: |
+        Java core, game server
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Opensource projects
+    intro:
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - title: React Native Network State
+          link: "https://github.com/react-native-vietnam/react-native-network-state"
+          tagline: "Check Network Reachability instantly"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - title: React Native Search Box
+          link: "https://github.com/react-native-vietnam/react-native-search-box"
+          tagline: "A simple search box with animation, inspired from ios search bar. Lightweight, fast, flexible."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - title: React Native Starter Kits
+          link: "https://github.com/agiletechvn/ReactNativeStarterKits"
+          tagline: "A starter kit for React Native that aims at high performance to deliver buttery-smooth UI."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - title: React Native Search Box
+          link: "https://github.com/agiletechvn/react-native-search-box"
+          tagline: "A simple search box with animation, inspired from ios search bar. Lightweight, fast, flexible."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - title: Google Recapcha V2
+          link: "https://github.com/agiletechvn/Recaptcha"
+          tagline: "CakePHP 3.2+ Easy to integrate google recaptcha v2 to your project."
+
+        - title: Advance Authenticate
+          link: "https://github.com/agiletechvn/authenticate"
+          tagline: "Advance Authenticate for CakePHP 3.x to Prevent Brute Force Attack, Remember login"
+
+        - title: Baokim payment gateway
+          link: "https://github.com/agiletechvn/bao-kim"
+          tagline: "CakePHP 3.x BaoKim payment gateway plugin"
+
+
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro:
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Facebook Developer Circle Hanoi Meetup
+        authors: me
+        conference: https://www.facebook.com/events/160930598009755/
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Facebook Developer Circle Hanoi Meetup
+        authors: me
+        conference: https://www.facebook.com/events/144339639568606/
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Youtube programming guide
+        authors: me
+        conference: https://www.youtube.com/channel/UCLEZH8_oOADMPNHDebFZaFA?view_as=subscriber
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Firebase
+        level: 90%
+
+      - name: React & React Native
+        level: 99%
 
       - name: Javascript & jQuery
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Java
+        level: 85%
+
+      - name: Object-C
+        level: 65%
+
+      - name: Swift
+        level: 50%
+
+      - name: Kotlin
+        level: 50%
+
+      - name: Oracle Database
+        level: 75%
+
+      - name: MySQL Database
+        level: 85%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: CakePHP
+        level: 95%
 
       - name: Sketch & Photoshop
         level: 60%
 
+      - name: Linux & Unix
+        level: 80%
+
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    I <i class="fas fa-heart"></i> by <a href="https://www.facebook.com/groups/reactnativevietnam/" target="_blank" rel="nofollow">React Native Vietnam</a>
