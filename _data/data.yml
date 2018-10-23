@@ -57,20 +57,17 @@ education:
     - degree: Bachelor's degree
       university: Ho Chi Minh University of Technology
       time: 2007 - 2011
-      details: |
-      Engineering Technology
+      details: Engineering Technology
 
     - degree: APTECH Certified Network Administrator
       university: Aprotrain Aptech
       time: 2007 - 2008
-      details: |
-      Network Administrator
+      details: Network Administrator
 
     - degree: Database Administrator
       university: COMMIT
       time: 2008 - 2009
-      details: |
-      Oracle Database Administrator 11g
+      details: Oracle Database Administrator 11g
 
 
 experiences:
@@ -94,18 +91,15 @@ experiences:
     - role: IT Support
       time: 2013/09 - 2017/08
       company: CGV Vietnam
-      details: |
-        PHP web programming with various framework such as CakePHP, Mobile app
+      details: PHP web programming with various framework such as CakePHP, Mobile app
     - role: Project Manager
       time: 2012/02 - 2013/05
       company: FTL
-      details: |
-        Java core, game server
+      details: Java core, game server
     - role: Java Developer
       time: 2011/05 - 2012/01
       company: FTL
-      details: |
-        Java core, game server
+      details: Java core, game server
 
 projects:
     title: Opensource projects
