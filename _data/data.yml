@@ -46,10 +46,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm 30 years old Freelancer and Community Administrator of React Native Viet Nam and senior developer from the cozy street of Ha Noi. I have more than 8 years of work experience in various positions.
-      I love coding, music and swimming, football, playing PUBG
-      My visionary believed that teamwork is essential to delivering great software.
-
+      I'm 30 years old Freelancer and Community Administrator of React Native Viet Nam and senior developer from the cozy street of Ha Noi.<br/>
+      I have more than 8 years of work experience in various positions.<br/>
+      I love coding, music and swimming, football, playing PUBG.<br/>
+      My visionary believed that teamwork is essential to delivering great software.<br/><br/>
       You can view more about <a href='https://github.com/anhtuank7c' target='_blank'>My Github Profile</a>, <a href='https://github.com/react-native-vietnam' target='_blank'>React Native Vietname Github</a>, <a href='http://bit.ly/2yeOby4' target='_blank'>React Native Vietname Slack Channel</a>
 
 
@@ -65,7 +65,7 @@ education:
       details: Network Administrator
 
     - degree: Database Administrator
-      university: COMMIT
+      university: COMMIT Education
       time: 2008 - 2009
       details: Oracle Database Administrator 11g
 
@@ -81,7 +81,7 @@ experiences:
         <a href='http://bit.ly/2yeOby4' target='_blank'>React Native Vietnam Slack Channel</a>
 
     - role: Founder & Technical Manager
-      time: Aug-2017 - Sep-2018
+      time: Aug 2017 - Sep 2018
       company: Agiletech Viet Nam
       details: |
         Project leader, Technical manager: 
@@ -89,15 +89,15 @@ experiences:
         <a href='https://cakephp.org/' target='_blank'>CakePHP</a>
 
     - role: IT Support
-      time: 2013/09 - 2017/08
+      time: Sep 2013 - Aug 2017
       company: CGV Vietnam
       details: PHP web programming with various framework such as CakePHP, Mobile app
     - role: Project Manager
-      time: 2012/02 - 2013/05
+      time: Feb 2012 - May 2013
       company: FTL
       details: Java core, game server
     - role: Java Developer
-      time: 2011/05 - 2012/01
+      time: May 2011 - Jan 2012
       company: FTL
       details: Java core, game server
 
