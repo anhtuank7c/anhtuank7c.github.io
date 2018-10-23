@@ -85,8 +85,8 @@ experiences:
       company: Agiletech Viet Nam
       details: |
         Project leader, Technical manager: 
-        <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>
-        <a href='https://cakephp.org/' target='_blank'>CakePHP</a>"
+        <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>, 
+        <a href='https://cakephp.org/' target='_blank'>CakePHP</a>
 
     - role: IT Support
       time: 2013/09 - 2017/08
@@ -133,8 +133,6 @@ projects:
         - title: Baokim payment gateway
           link: "https://github.com/agiletechvn/bao-kim"
           tagline: "CakePHP 3.x BaoKim payment gateway plugin"
-
-
 
 publications:
     title: Publications
