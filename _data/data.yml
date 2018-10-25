@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: anhtuank7c@hotmail.com
-    phone: +84982808065
+    phone: +84-982-808-065
     gender: Male
     website: anhtuank7c.github.io #do not add http://
     linkedin: nguyễn-anh-tuấn-49504952
@@ -25,7 +25,9 @@ sidebar:
     codewars:
 
     languagesSeo: English, Vietnamese
-    location: Hanoi, Vietnam
+    nationality:
+      name: Vietnam
+      branchCode: 100000
 
     languages:
       - idiom: Vietnamese
@@ -49,6 +51,8 @@ sidebar:
 
 # Later
 organization:
+
+services:
 
 career-profile:
     title: Career Profile
