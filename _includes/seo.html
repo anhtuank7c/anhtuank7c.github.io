@@ -1,0 +1,12 @@
+{% assign sidebar = site.data.data.sidebar %}
+{% if seo %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "image": "{{avatar}}",
+  "name": "{{sidebar.name}}",
+  "sameAs": "{{sidebar.website}}"
+}
+</script>
+{% endif %}
