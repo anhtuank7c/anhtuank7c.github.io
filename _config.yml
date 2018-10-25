@@ -29,6 +29,10 @@ compress_html: # - http://jch.penibelst.de/
   ignore:
     envs: development
 
+# Build sitemap
+plugins:
+  - jekyll-sitemap
+
 # Development Settings
 port: 4000
 host: 0.0.0.0
