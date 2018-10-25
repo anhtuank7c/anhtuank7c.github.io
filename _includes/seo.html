@@ -1,4 +1,5 @@
 {% assign sidebar = site.data.data.sidebar %}
+{% assign career-profile = site.data.data.career-profile %}
 {% if sidebar %}
 <script type="application/ld+json">
 {
@@ -11,6 +12,7 @@
   "email": "{{sidebar.email}}",
   "gender": "{{sidebar.gender}}",
   "jobTitle": "{{sidebar.tagline}}",
+  "knowsAbout": "{{career-profile.summary}}",
   "knowsLanguage": "{{sidebar.languagesSeo}}",
   "nationality": {
     "@type": "Country",
