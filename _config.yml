@@ -1,7 +1,7 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Anh Tuan Nguyen Resume
+title: Tuan Nguyen Anh Resume
 url: 'https://anhtuank7c.github.io'
 baseurl:  #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
@@ -13,7 +13,7 @@ description: |
   I love coding, music and swimming, football, playing PUBG.
   My visionary believed that teamwork is essential to delivering great software.
   I am very strong in React Native.
-keywords: React Native, ReactJS, NodeJS, Mobile App, Freelancer, anhtuank7c, React Native Vietnam, Senior React Native
+keywords: React Native, ReactJS, NodeJS, Mobile App, Freelancer, anhtuank7c, React Native Vietnam, Senior React Native, CTLab Vietnam
 
 # Tracker
 analytics: UA-128129447-1
