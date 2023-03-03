@@ -2,18 +2,17 @@
 
 # Site Settings
 title: Tuan Nguyen Anh Resume
-url: 'https://anhtuank7c.github.io'
-baseurl:  #change it according to your repository name
+url: "https://anhtuank7c.github.io"
+
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv' 
+description: |
+  I am 34 years old Software Engineer who has passionate about programming. I work with React Native framework for years, I can do backend and also frontend websites that use ReactJS. I can self-teaching, and improve my skill day by day. I don't hesitate to dig into the problem, analyze it, and resolve it with the clearest refinement. No one is perfect and I am one of them but I do listen to others to improve, I am full of positive energy to do that. I do remote work since 2018, and I am used to it. I have no problem with the distracting by using Pomodoro Technique to manage focus and break time. I personally want to dig more into SwiftUI and just kick off 100 days of SwiftUI challenge, I optimistic I can acquire it well.
+
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
-pic: https://github.com/anhtuank7c.png
-description: |
-  I'm 30 years old Freelancer and Community Administrator of React Native Viet Nam and senior developer from the cozy street of Ha Noi.
-  I have more than 8 years of work experience in various positions.
-  I love coding, music and swimming, football, playing PUBG.
-  My visionary believed that teamwork is essential to delivering great software.
-  I am very strong in React Native.
-keywords: React Native, ReactJS, NodeJS, Mobile App, Freelancer, anhtuank7c, React Native Vietnam, Senior React Native, CTLab Vietnam
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
 analytics: UA-128129447-1
@@ -24,15 +23,13 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
+compress-site: yes
+
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
-
-# Build sitemap
-plugins:
-  - jekyll-sitemap
 
 # Development Settings
 port: 4000

@@ -1,52 +1,53 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Nguyen Anh Tuan
-    tagline: Mobile App Developer, Freelancer, Community Administrator, CEO at CTLab Vietnam
-    avatar: https://github.com/anhtuank7c.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Tuan Nguyen Anh
+  tagline: Software Engineer
+  avatar: https://github.com/anhtuank7c.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: anhtuank7c@hotmail.com
-    gender: Male
-    website: anhtuank7c.github.io #do not add http://
-    linkedin: nguyễn-anh-tuấn-49504952
-    github: anhtuank7c
-    gitlab: anhtuank7c
-    bitbucket:
-    twitter: '@anhtuank7c'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+  # Sidebar links
+  email: anhtuank7c@hotmail.com
+  gender: Male
+  website:
+  linkedin: nguyễn-anh-tuấn-49504952
+  github: anhtuank7c
+  gitlab: anhtuank7c
+  bitbucket:
+  twitter:
+  stack-overflow: 2265322/nguyễn-anh-tuấn
+  codewars:
 
-    languagesSeo: English, Vietnamese
-    nationality:
-      - name: Vietnam
-      - branchCode: 100000
+  languagesSeo: English, Vietnamese
+  nationality:
+    - name: Vietnam
+    - branchCode: 02211
 
-    languages:
-      - idiom: Vietnamese
-        level: native
+  languages:
+    - idiom: Vietnamese
+      level: native
 
-      - idiom: English
-        level: Good
-        
-    interests:
-      - item: Swimming
-        link:
+    - idiom: English
+      level: intermediate
 
-      - item: Playing PUBG game
-        link:
-
-      - item: Cooking
-        link:
-
-      - item: Music
-        link:
+  interests:
+    - item: SvelteKit
+      link: https://kit.svelte.dev
+    - item: TypeScript
+      link: https://typescriptlang.org
+    - item: PocketBase
+      link: https://pocketbase.io
+    - item: Critical thinking
+      link:
+    - item: This vs That
+      link: https://thisthat.dev
+    - item: SwiftUI challenge
+      link: https://www.hackingwithswift.com/100/swiftui
 
 # Later
 organization:
@@ -54,156 +55,145 @@ organization:
 services:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      I'm 30 years old Freelancer and Community Administrator of React Native Viet Nam and senior developer from the cozy street of Ha Noi.<br/>
-      I have more than 8 years of work experience in various positions.<br/>
-      I love coding, music and swimming, football, playing PUBG.<br/>
-      My visionary believed that teamwork is essential to delivering great software.<br/><br/>
-      You can view more about <a href='https://github.com/anhtuank7c' target='_blank'>My Github Profile</a>, <a href='https://github.com/react-native-vietnam' target='_blank'>React Native Vietname Github</a>, <a href='http://bit.ly/2yeOby4' target='_blank'>React Native Vietname Slack Channel</a>
-
+  title: Career Profile
+  summary: |
+    I am 34 years old Software Engineer who has passionate about programming. I work with React Native framework for years, I can do backend and also frontend websites that use ReactJS. I can self-teaching, and improve my skill day by day. I don't hesitate to dig into the problem, analyze it, and resolve it with the clearest refinement. No one is perfect and I am one of them but I do listen to others to improve, I am full of positive energy to do that. I do remote work since 2018, and I am used to it. I have no problem with the distracting by using Pomodoro Technique to manage focus and break time. I personally want to dig more into SwiftUI and just kick off <a target="_blank" href="https://www.hackingwithswift.com/100/swiftui">100 days of SwiftUI challenge</a>, I optimistic I can acquire it well. I have a <a href="https://anhtuank7c.github.io/assets/docs/RecommendationforNguyenAnhTuanG.Shisler.docx" download>recommendation letter</a> from Equilab right here in case you're interest.
 
 education:
-    - degree: Bachelor's degree
-      university: Ho Chi Minh University of Technology
-      time: 2007 - 2011
-      details: Engineering Technology
+  - degree: Bachelor's Degree
+    university: Ho Chi Minh University of Technology
+    time: 2007 - 2011
+    details: Engineering Technology
 
-    - degree: APTECH Certified Network Administrator
-      university: Aprotrain Aptech
-      time: 2007 - 2008
-      details: Network Administrator
+  - degree: APTECH Certified Network Administrator
+    university: Aprotrain Aptech
+    time: 2007 - 2008
+    details: Network Administrator
 
-    - degree: Database Administrator
-      university: COMMIT Education
-      time: 2008 - 2009
-      details: Oracle Database Administrator 11g
-
+  - degree: Database Administrator
+    university: COMMIT Education
+    time: 2008 - 2009
+    details: Oracle Database Administrator 11g
 
 experiences:
-    - role: CEO, Freelancer Team Leader, Developer
-      time: Oct-2018 - Present
-      company: CTLAB VIETNAM
-      details: |
-        Project leader, Technical manager, Community Administrator: 
-        <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>
-        <a href='https://www.facebook.com/groups/reactnativevietnam/' target='_blank'>React Native Vietnam</a>
-        <a href='http://bit.ly/2yeOby4' target='_blank'>React Native Vietnam Slack Channel</a>
-
-    - role: Founder & Technical Manager
-      time: Aug 2017 - Sep 2018
-      company: Agiletech Viet Nam
-      details: |
-        Project leader, Technical manager: 
-        <a href='https://facebook.github.io/react-native/' target='_blank'>React Native</a>, 
-        <a href='https://cakephp.org/' target='_blank'>CakePHP</a>
-
-    - role: IT Support
-      time: Sep 2013 - Aug 2017
-      company: CGV Vietnam
-      details: PHP web programming with various framework such as CakePHP, Mobile app
-    - role: Project Manager
-      time: Feb 2012 - May 2013
-      company: FTL
-      details: Java core, game server
-    - role: Java Developer
-      time: May 2011 - Jan 2012
-      company: FTL
-      details: Java core, game server
+  - role: Software Engineer
+    time: Oct 2018 - Mar 2023
+    company: Equestrian Insights AB (dba Equilab)
+    link: https://equilab.horse
+    details: |
+      Joined Equilab as a React Native lead, I helped the team to develop new features such as Social Feed, Friend suggestions, Premium Calendar, Training Histories, Training summaries, Training Weather (premium), High-level graph of gaits analysis, and countless improvement.<br/>
+      I've learned so much from a teammate, clean code, reduce the complexity of each git commit/merge request, and also critical thinking.
+      We debate a lot on how to improve the product and also the solution to resolve the problem.<br/>
+      My English communication is still in the developing stage but the whole team never let me be behind, together we achieved some milestones such as reaching <strong>500k</strong> users in June 2020 and <strong>1M</strong> users in 2021.<br/>
+      We first develop things in JS but it become a bit messy once the feature grow up, I am the one who responds in TypeScript transition, and I could say it helped us a lot with all the benefits of TypeScript such as static type-checking, shaping data, reduce the number of runtime errors.<br />
+      Besides TypeScript, I also use Swift and Kotlin to code a native bridge to communicate between native and JS, and code some native functionality such as dev feature flag system, and native UI but not that much.
+  - role: Team leader
+    time: Aug 2017 - Sep 2018
+    company: Agiletech
+    link: https://agiletech.vn
+    details: |
+      I start a new journey in the new position to develop mobile app use React Native. Then it go a bit further when I try my best to develop nodejs backend and lead a small team to develop e-commerce app for Thailand company.
+  - role: IT Support
+    time: Sep 2013 - Aug 2017
+    company: CGV Vietnam
+    link: https://cgv.vn
+    details: |
+      I first manage local IT system of networking, CCTV, projectors for 2 branches of CGV in <a target="_blank" href="https://www.cgv.vn/default/cinox/site/cgv-vincom-ha-long">Quang Ninh</a> then expand to other sites of CGV.
+      During that time, i also develop website use CakePHP 3.x framework, and digging into React Native to develop mobile app.
+  - role: Project Manager
+    time: Feb 2012 - May 2013
+    company: FTL
+    link: http://ftl.vn
+    details: |
+      I lead a small team that have 2 dev and 1 tester to develop micro services for <a target="_blank" href="https://www.mobifone.vn">MobiFone</a>, one of the three biggest Mobile Operators in Vietnam.
+      I used Java Core at this time.
+  - role: Developer
+    time: May 2011 - Jan 2012
+    company: FTL
+    link: http://ftl.vn
+    details: |
+      It is a honor to be a part of FTLer to develop Wapsite, USSD and SMS services for <a target="_blank" href="https://www.mobifone.vn">MobiFone</a>, one of the three biggest Mobile Operators in Vietnam.
+      I used Java Core at this time.
 
 projects:
-    title: Opensource projects
-    intro:
+  title: Open source projects
+  intro:
 
-    assignments:
-        - title: React Native Network State
-          link: "https://github.com/react-native-vietnam/react-native-network-state"
-          tagline: "Check Network Reachability instantly"
+  assignments:
+    - title: React Native Search Box
+      link: "https://github.com/react-native-vietnam/react-native-search-box"
+      tagline: "A simple search box with animation, inspired from ios search bar for React Native. Lightweight, fast, flexible."
 
-        - title: React Native Search Box
-          link: "https://github.com/react-native-vietnam/react-native-search-box"
-          tagline: "A simple search box with animation, inspired from ios search bar. Lightweight, fast, flexible."
+    - title: Google Recapcha V2
+      link: "https://github.com/ctlabvn/Recaptcha"
+      tagline: "CakePHP 3.2+ Easy to integrate google recaptcha v2 to your project."
 
-        - title: React Native Starter Kits
-          link: "https://github.com/agiletechvn/ReactNativeStarterKits"
-          tagline: "A starter kit for React Native that aims at high performance to deliver buttery-smooth UI."
+    - title: Advance Authenticate
+      link: "https://github.com/ctlabvn/authenticate"
+      tagline: "Advance Authenticate for CakePHP 3.x to Prevent Brute Force Attack, Remember login"
 
-        - title: React Native Search Box
-          link: "https://github.com/agiletechvn/react-native-search-box"
-          tagline: "A simple search box with animation, inspired from ios search bar. Lightweight, fast, flexible."
-
-        - title: Google Recapcha V2
-          link: "https://github.com/agiletechvn/Recaptcha"
-          tagline: "CakePHP 3.2+ Easy to integrate google recaptcha v2 to your project."
-
-        - title: Advance Authenticate
-          link: "https://github.com/agiletechvn/authenticate"
-          tagline: "Advance Authenticate for CakePHP 3.x to Prevent Brute Force Attack, Remember login"
-
-        - title: Baokim payment gateway
-          link: "https://github.com/agiletechvn/bao-kim"
-          tagline: "CakePHP 3.x BaoKim payment gateway plugin"
+    - title: Baokim payment gateway
+      link: "https://github.com/ctlabvn/bao-kim"
+      tagline: "CakePHP 3.x BaoKim payment gateway plugin"
 
 publications:
-    title: Publications
-    intro:
+  title: Publications
+  intro:
 
-    papers:
-      - title: Facebook Developer Circle Hanoi Meetup
-        authors: me
-        conference: https://www.facebook.com/events/160930598009755/
+  papers:
+    - title: Facebook Developer Circle Hanoi Meetup
+      authors:
+      conference: https://www.facebook.com/events/160930598009755/
 
-      - title: Facebook Developer Circle Hanoi Meetup
-        authors: me
-        conference: https://www.facebook.com/events/144339639568606/
-
-      - title: Youtube programming guide
-        authors: me
-        conference: https://www.youtube.com/channel/UCLEZH8_oOADMPNHDebFZaFA?view_as=subscriber
+    - title: Facebook Developer Circle Hanoi Meetup
+      authors:
+      conference: https://www.facebook.com/events/144339639568606/
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Firebase
-        level: 90%
+  toolset:
+    - name: Firebase
+      level: 95%
 
-      - name: React & React Native
-        level: 99%
+    - name: React Native
+      level: 95%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: ReactJS
+      level: 70%
 
-      - name: Java
-        level: 85%
+    - name: Javascript & TypeScript
+      level: 96%
 
-      - name: Object-C
-        level: 65%
+    - name: Swift
+      level: 50%
 
-      - name: Swift
-        level: 50%
+    - name: Kotlin
+      level: 50%
 
-      - name: Kotlin
-        level: 50%
+    - name: HTML5 & CSS
+      level: 50%
 
-      - name: Oracle Database
-        level: 75%
+    - name: Debate
+      level: 70%
 
-      - name: MySQL Database
-        level: 85%
+    - name: Learning capability
+      level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: Problem solving
+      level: 80%
 
-      - name: CakePHP
-        level: 95%
+    - name: Clean code
+      level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Task/issue refinement
+      level: 90%
 
-      - name: Linux & Unix
-        level: 80%
+    - name: Productive
+      level: 95%
 
+    - name: Honest
+      level: 100%
 
 footer: >
-    I <i class="fas fa-heart"></i> <a href="https://www.facebook.com/groups/reactnativevietnam/" target="_blank" rel="nofollow">React Native Vietnam</a>
+  Don't hesitate to shoot me an e-mail (Updated Mar 03, 2023)
