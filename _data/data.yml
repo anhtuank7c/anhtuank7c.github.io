@@ -33,7 +33,7 @@ sidebar:
       level: native
 
     - idiom: English
-      level: intermediate
+      level: proficient
 
   interests:
     - item: SvelteKit
@@ -42,8 +42,6 @@ sidebar:
       link: https://typescriptlang.org
     - item: PocketBase
       link: https://pocketbase.io
-    - item: Critical thinking
-      link:
     - item: This vs That
       link: https://thisthat.dev
     - item: SwiftUI challenge
@@ -57,7 +55,7 @@ services:
 career-profile:
   title: Career Profile
   summary: |
-    I'm a 34 years old Software Engineer passionated about programming. I've worked with React Native framework for years, and I can do both backend and frontend websites that uses ReactJS. I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve. I am full of positive energy to learn new things and improve my skills day by day. I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage focus and break time. I personally want to dig more into SwiftUI and kick off the <a target="_blank" href="https://www.hackingwithswift.com/100/swiftui">100 days of SwiftUI challenge</a>, I'm optimistic that I can manage it well. I have a <a href="https://anhtuank7c.github.io/assets/docs/RecommendationforNguyenAnhTuanG.Shisler.docx" download>recommendation letter from Equilab right here</a> in case you're interested
+    I'm a 34 years old Software Engineer passionated about programming. I've worked with React Native framework for years, and I can do both backend and frontend websites that uses ReactJS. I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve. I am full of positive energy to learn new things and improve my skills day by day. I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage focus and break time. I am digging into SvelteKit recently. I have a <a href="https://anhtuank7c.github.io/assets/docs/RecommendationforNguyenAnhTuanG.Shisler.docx" download>recommendation letter from Equilab right here</a> in case you're interested
 
 education:
   - degree: Bachelor's Degree
@@ -84,7 +82,7 @@ experiences:
       Joined Equilab as a React Native lead, I helped the team to develop new features such as Social Feed, Friend suggestions, Premium Calendar, Training Histories, Training summaries, Training Weather (premium), High-level graph of gaits analysis, and countless improvement.<br/>
       I've learned so much from teammates, clean code, reduce the complexity of each commit/merge request, and also critical thinking.
       We debate a lot on how to improve the product and also the solution to resolve the problem.<br/>
-      My English communication is still in the developing stage but the whole team never let me be behind, together we achieved some milestones such as reaching <strong>500k</strong> users in June 2020 and <strong>1M</strong> users in 2021.<br/>
+      My English communication is still in the developing stage but the whole team never left me be behind, together we achieved some milestones such as reaching <strong>500k</strong> users in June 2020 and <strong>1M</strong> users in 2021.<br/>
       We develop things in JS at first but it become a bit messy once features become bigger, I am the one who responds in TypeScript transition, and I could say it helped us a lot with all the benefits of TypeScript such as static type-checking, shaping data, reduce the number of runtime errors.<br />
       The transition process is a bit challenge since we need to balance the resource between develop new feature, fix bugs and transition existing JS to TS. I research a bit and found 2 solution, transition vertically by converting feature by feature and transition horizontally by convert all the files extension from <code>.js</code> to <code>.ts</code><br/>
       Finally I choosed horizontal transition, by that way I can apply to the whole project, develop new feature in TypeScript immediately, reduce the plenty of issues in the new feature. For all the old code, we spent 10% of resource each years (sometime more) to convert it. This process will take years to complete but it give us a balance.<br/>
@@ -119,9 +117,14 @@ experiences:
 
 projects:
   title: Open source projects
-  intro:
+  intro: |
+    I sometime improve or write some Open source project to help other devs and myself to understand deeper into code stuff. I can't prevent myself from learn the new thing.
 
   assignments:
+    - title: Expo Speech To Text
+      link: "https://github.com/anhtuank7c/expo-stt"
+      tagline: "Unofficial Speech To Text module for Expo and Bare React Native"
+
     - title: React Native Search Box
       link: "https://github.com/react-native-vietnam/react-native-search-box"
       tagline: "A simple search box with animation, inspired from ios search bar for React Native. Lightweight, fast, flexible."
@@ -183,7 +186,7 @@ skills:
       level: 90%
 
     - name: Problem solving
-      level: 80%
+      level: 90%
 
     - name: Clean code
       level: 90%
@@ -198,4 +201,4 @@ skills:
       level: 100%
 
 footer: >
-  Don't hesitate to shoot me an e-mail (Updated Mar 04, 2023)
+  Don't hesitate to shoot me an e-mail (Updated May 12, 2023)
