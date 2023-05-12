@@ -55,7 +55,13 @@ services:
 career-profile:
   title: Career Profile
   summary: |
-    I'm a 34 years old Software Engineer passionated about programming. I've worked with React Native framework for years, and I can do both backend and frontend websites that uses ReactJS. I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve. I am full of positive energy to learn new things and improve my skills day by day. I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage focus and break time. I am digging into SvelteKit recently. I have a <a href="https://anhtuank7c.github.io/assets/docs/RecommendationforNguyenAnhTuanG.Shisler.docx" download>recommendation letter from Equilab right here</a> in case you're interested
+    I'm a 34 years old Software Engineer passionated about programming.
+    I've worked with React Native framework for years, and I can do both backend and frontend websites that uses ReactJS/SvelteKit.
+    I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve.
+    I am full of positive energy to learn new things and improve my skills day by day.
+    I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage focus and break time.
+    I am digging into SvelteKit recently.
+    I have a <a href="https://anhtuank7c.github.io/assets/docs/RecommendationforNguyenAnhTuanG.Shisler.docx" download>recommendation letter from Equilab right here</a> in case you're interested.
 
 education:
   - degree: Bachelor's Degree
@@ -171,13 +177,19 @@ skills:
       level: 96%
 
     - name: Swift
-      level: 50%
+      level: 60%
 
     - name: Kotlin
-      level: 50%
+      level: 60%
 
-    - name: HTML5 & CSS
-      level: 50%
+    - name: HTML5
+      level: 70%
+
+    - name: TailwindCSS
+      level: 70%
+
+    - name: SvelteKit
+      level: 70%
 
     - name: Debate
       level: 70%
