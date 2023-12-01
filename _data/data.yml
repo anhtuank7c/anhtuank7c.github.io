@@ -7,14 +7,14 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Tuan Nguyen Anh
+  name: Nguyễn Anh Tuấn
   tagline: Software Engineer
   avatar: https://github.com/anhtuank7c.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: anhtuank7c@hotmail.com
   gender: Male
-  website:
+  website: https://anhtuank7c.dev
   linkedin: nguyễn-anh-tuấn-49504952
   github: anhtuank7c
   gitlab: anhtuank7c
@@ -44,25 +44,22 @@ sidebar:
       link: https://pocketbase.io
     - item: This vs That
       link: https://thisthat.dev
-    - item: SwiftUI challenge
-      link: https://www.hackingwithswift.com/100/swiftui
+    - item: Clean Architecture
+      link: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+    - item: Clean code
+      link: https://github.com/ryanmcdermott/clean-code-javascript
 
 # Later
 organization:
-
 services:
 
 career-profile:
   title: Career Profile
   summary: |
-    I'm a 34 years old Software Engineer passionated about programming.
-    I've worked with React Native framework for years, and I can do both backend and frontend websites that uses ReactJS/SvelteKit.
+    I've worked with React Native framework since 2016 up to now, and I do both backend and frontend websites that uses ReactJS/SvelteKit, PostgreSQL, Elysia, NodeJS, Redis.
     I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve.
     I am full of positive energy to learn new things and improve my skills day by day.
-    I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage focus and break time.
-    I am digging into SvelteKit recently.
-    I have a <a href="https://anhtuank7c.github.io/assets/docs/RecommendationforNguyenAnhTuanG.Shisler.docx" download>recommendation letter from Equilab right here</a> in case you're interested.
-
+    I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage the focus.
 education:
   - degree: Bachelor's Degree
     university: Ho Chi Minh University of Technology
@@ -80,19 +77,19 @@ education:
     details: Oracle Database Administrator 11g
 
 experiences:
+  - role: Freelancer
+    time: Mar 2023 - now
+    details: |
+      As a freelancer, I start digging in SvelteKit and build some web app for my customer. I still develop React Native app and I also publish a native module for Expo/React Native project at <a href="https://github.com/anhtuank7c/expo-stt" target="_blank">Expo STT</a> <br/>
+      I also use React Query for React Native project to enhance the cache and reduce the complexity of the code. In web app project, I use Redis to cache the user session, also to pub/sub event to sending email in background. <br/>
+      I use Github Action to deploy web app to <a href="https://vercel.com" target="_blank">Vercel cloud platform</a>.
   - role: Software Engineer
     time: Oct 2018 - Mar 2023
     company: Equestrian Insights AB (dba Equilab)
     link: https://equilab.horse
     details: |
-      Joined Equilab as a React Native lead, I helped the team to develop new features such as Social Feed, Friend suggestions, Premium Calendar, Training Histories, Training summaries, Training Weather (premium), High-level graph of gaits analysis, and countless improvement.<br/>
-      I've learned so much from teammates, clean code, reduce the complexity of each commit/merge request, and also critical thinking.
-      We debate a lot on how to improve the product and also the solution to resolve the problem.<br/>
-      My English communication is still in the developing stage but the whole team never left me be behind, together we achieved some milestones such as reaching <strong>500k</strong> users in June 2020 and <strong>1M</strong> users in 2021.<br/>
-      We develop things in JS at first but it become a bit messy once features become bigger, I am the one who responds in TypeScript transition, and I could say it helped us a lot with all the benefits of TypeScript such as static type-checking, shaping data, reduce the number of runtime errors.<br />
-      The transition process is a bit challenge since we need to balance the resource between develop new feature, fix bugs and transition existing JS to TS. I research a bit and found 2 solution, transition vertically by converting feature by feature and transition horizontally by convert all the files extension from <code>.js</code> to <code>.ts</code><br/>
-      Finally I choosed horizontal transition, by that way I can apply to the whole project, develop new feature in TypeScript immediately, reduce the plenty of issues in the new feature. For all the old code, we spent 10% of resource each years (sometime more) to convert it. This process will take years to complete but it give us a balance.<br/>
-      Besides TypeScript, I also use Swift and Kotlin to write a native bridge to communicate between native and JS, and some native functionality such as dev feature flag system, and native UI but not that much.
+      Joined Equilab as a React Native lead, I helped the team to develop new features such as Social Feed, Friend suggestions, Training Calendar (Premium), Training Histories, Training summaries, Training Weather (premium), High-level graph of gaits analysis, Chat, and countless improvement in React Native.<br/>
+      I also develop many native modules for Android (using Kotlin) and iOS (using Swift) to solve the problem of communicating between native and js side (the app initially build in native).
   - role: Team leader
     time: Aug 2017 - Sep 2018
     company: Agiletech
@@ -167,7 +164,16 @@ skills:
     - name: Firebase
       level: 95%
 
+    - name: PostgreSQL
+      level: 90%
+
+    - name: Prisma
+      level: 90%
+
     - name: React Native
+      level: 95%
+
+    - name: Expo
       level: 95%
 
     - name: ReactJS
@@ -189,7 +195,7 @@ skills:
       level: 70%
 
     - name: SvelteKit
-      level: 70%
+      level: 80%
 
     - name: Debate
       level: 70%
@@ -213,4 +219,4 @@ skills:
       level: 100%
 
 footer: >
-  Don't hesitate to shoot me an e-mail (Updated May 12, 2023)
+  Don't hesitate to shoot me an e-mail (Last updated Dec 01, 2023)

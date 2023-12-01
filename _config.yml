@@ -8,15 +8,13 @@ url: "https://anhtuank7c.github.io"
 # disabling since we are using a custom domain
 #baseurl: '/online-cv'
 description: |
-  I'm a 34 years old Software Engineer passionated about programming.
-  I've worked with React Native framework for years, and I can do both backend and frontend websites that uses ReactJS/SvelteKit.
+  I've worked with React Native framework since 2016 up to now, and I do both backend and frontend websites that uses ReactJS/SvelteKit, PostgreSQL, Elysia, NodeJS, Redis.
   I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve.
   I am full of positive energy to learn new things and improve my skills day by day.
-  I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage focus and break time.
-  I am digging into SvelteKit recently.
+  I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage the focus.
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
+theme_skin: turquoise # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
