@@ -56,10 +56,9 @@ services:
 career-profile:
   title: Career Profile
   summary: |
-    I've worked with React Native framework since 2016 up to now, and I do both backend and frontend websites that uses ReactJS/SvelteKit, PostgreSQL, Elysia, NodeJS, Redis.
-    I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, but I listen to others in order to improve.
-    I am full of positive energy to learn new things and improve my skills day by day.
-    I have done remote work since 2018, and have no problem with distractions by using the Pomodoro Technique to manage the focus.
+    I've worked with React Native framework since later 2016 up to now, and I do both backend and frontend websites that uses ReactJS/SvelteKit, PostgreSQL, SQLite, Elysia, NodeJS, Redis.
+    I also write native module for React Native to communicate with native side using Swift and Kotlin. I already publish some open source projects.
+    I don't hesitate to dig into a problem, analyze it, and resolve it with a clear refinement. No one is perfect, so am I, but I never stop learning, research and improve myself day by day.
 education:
   - degree: Bachelor's Degree
     university: Ho Chi Minh University of Technology
@@ -77,25 +76,66 @@ education:
     details: Oracle Database Administrator 11g
 
 experiences:
-  - role: Freelancer
+  - role: Ctlab Vietnam
     time: Mar 2023 - now
     details: |
-      As a freelancer, I start digging in SvelteKit and build some web app for my customer. I still develop React Native app and I also publish a native module for Expo/React Native project at <a href="https://github.com/anhtuank7c/expo-stt" target="_blank">Expo STT</a> <br/>
-      I also use React Query for React Native project to enhance the cache and reduce the complexity of the code. In web app project, I use Redis to cache the user session, also to pub/sub event to sending email in background. <br/>
-      I use Github Action to deploy web app to <a href="https://vercel.com" target="_blank">Vercel cloud platform</a>.
+      Senior Software Engineer, React Native lead and SvelteKit lead<br />
+      Develop news app/web for Switzerland publisher. This project provide a news platform for local user in Murten, Switzerland. Its also let local business to advertise their's services/goods and especially urgent info from goverment.<br/><br/>
+      <strong>Responsibility</strong>:
+      <ul>
+        <li>Build data structure with Firebase Firestore</li>
+        <li>Develop callable function, API, cronjob, and pub/sub event for Firebase with TypeScript</li>
+        <li>Revise, update, refactor, and debug code.</li>
+        <li>Unit test with Jest</li>
+        <li>End to End test with Detox</li>
+        <li>Implement Clean Architecture, Redux Toolkit to write unit test, enhance code quality, easier to maintain and not blocking each other to build a new features</li>
+        <li>Improve existing software development documentation throughout the software development life cycle.</li>
+        <li>Write native module for iOS and Android app with Swift, Kotlin</li>
+        <li>Participate in daily catch-up meetings with international team members using Google Meet</li>
+        <li>Use CodeMagic for CI/CD for mobile project, Vercel for Web project</li>
+        <li>Facilitate daily team check-ins to ensure progress in Agile/Scrum modeling.</li>
+      </ul>
+      <strong>Technologies</strong>: Javascript, TypeScript, Firebase, NodeJS, Vercel, Svelte, SvelteKit, HTML5, CodeMagic, Algolia Full text search, ESLint, Jest, Detox, SwiftLint, React Query, Redux
   - role: Software Engineer
     time: Oct 2018 - Mar 2023
     company: Equestrian Insights AB (dba Equilab)
     link: https://equilab.horse
     details: |
-      Joined Equilab as a React Native lead, I helped the team to develop new features such as Social Feed, Friend suggestions, Training Calendar (Premium), Training Histories, Training summaries, Training Weather (premium), High-level graph of gaits analysis, Chat, and countless improvement in React Native.<br/>
-      I also develop many native modules for Android (using Kotlin) and iOS (using Swift) to solve the problem of communicating between native and js side (the app initially build in native).
+      Senior Software Engineer & React Native Lead<br/>
+      This project help horse rider to record and analyze the exercise by record phone sensor data and classify it with Machine Learning. Rider can share theirs training with nearby user, planning future training, join challenges and chat with each others within a stable.<br/><br/>
+      <strong>Responsibility</strong>:
+      <ul>
+        <li>Build data structure with Firebase Firestore</li>
+        <li>Develop callable function, RESTful API, cronjob, and pub/sub event for Firebase with TypeScript</li>
+        <li>Revise, update, refactor, and debug code.</li>
+        <li>Unit test with Jest</li>
+        <li>End to End test with Detox</li>
+        <li>Implement Clean Architecture, Redux Toolkit to write unit test, enhance code quality, easier to maintain and not blocking each other to build a new features</li>
+        <li>Improve existing software development documentation throughout the software development life cycle.</li>
+        <li>Write native module for iOS and Android app with Swift, Kotlin</li>
+        <li>Participate in daily catch-up meetings with international team members using Google Meet</li>
+        <li>Use Github Actions, Fastlane for CI/CD which resulted daily build (initially), and use Code Magic at the end</li>
+        <li>Facilitate daily team check-ins to ensure progress in Agile/Scrum modeling.</li>
+      </ul>
+      <strong>Technologies</strong>: Javascript, TypeScript, Firebase, NodeJS, Heroku, HTML5, Swift, Kotlin, Fastlane, CodeMagic, Algolia Full text search, ESLint, Jest, Detox, SwiftLint, React Query, Redux
   - role: Team leader
     time: Aug 2017 - Sep 2018
     company: Agiletech
     link: https://agiletech.vn
     details: |
-      I start a new journey in the new position to develop mobile app use React Native. Then it go a bit further when I try my best to develop nodejs backend and lead a small team to develop e-commerce app for Thailand company.
+      I lead my team to develop an ecommerce app for  ShopStack Asia, a Thailand company.
+      <strong>Responsibility</strong>:
+      <ul>
+        <li>Revise, update, refactor, and debug code.</li>
+        <li>Unit test with Jest</li>
+        <li>Redux with Saga</li>
+        <li>Improve existing software development documentation throughout the software development life cycle.</li>
+        <li>Participate in daily catch-up meetings with international team members using Google Meet</li>
+        <li>Implement Jekyll for code quality control</li>
+        <li>Collaborate with the Team to enhance the project structure and proactively seek solutions to prevent potential issues.</li>
+        <li>Facilitate daily team check-ins to ensure progress in Agile/Scrum modeling.</li>
+      </ul>
+      <strong>Technologies</strong>: Javascript, RESTful API, Fastlane, ESLint, Jest, Redux & Redux Saga
   - role: IT Support
     time: Sep 2013 - Aug 2017
     company: CGV Vietnam
@@ -121,7 +161,7 @@ experiences:
 projects:
   title: Open source projects
   intro: |
-    I sometime improve or write some Open source project to help other devs and myself to understand deeper into code stuff. I can't prevent myself from learn the new thing.
+    I sometime improve or write some Open source project to help other devs and myself to understand deeper into technical stuff. I can't prevent myself from learn the new thing.
 
   assignments:
     - title: Expo Speech To Text
@@ -167,13 +207,13 @@ skills:
     - name: PostgreSQL
       level: 90%
 
-    - name: Prisma
+    - name: Prisma ORM
       level: 90%
 
-    - name: React Native
-      level: 95%
+    - name: Drizzle ORM
+      level: 90%
 
-    - name: Expo
+    - name: React Native & Expo
       level: 95%
 
     - name: ReactJS
@@ -183,10 +223,10 @@ skills:
       level: 96%
 
     - name: Swift
-      level: 60%
+      level: 70%
 
     - name: Kotlin
-      level: 60%
+      level: 70%
 
     - name: HTML5
       level: 70%
@@ -194,29 +234,17 @@ skills:
     - name: TailwindCSS
       level: 70%
 
-    - name: SvelteKit
+    - name: Svelte & SvelteKit
       level: 80%
 
-    - name: Debate
+    - name: Jest & Detox
       level: 70%
 
-    - name: Learning capability
+    - name: Clean Code
       level: 90%
 
-    - name: Problem solving
+    - name: Clean Architecture
       level: 90%
-
-    - name: Clean code
-      level: 90%
-
-    - name: Task/issue refinement
-      level: 90%
-
-    - name: Productive
-      level: 95%
-
-    - name: Honest
-      level: 100%
 
 footer: >
-  Don't hesitate to shoot me an e-mail (Last updated Dec 01, 2023)
+  Don't hesitate to shoot me an e-mail (Last updated Dec 05, 2023)
