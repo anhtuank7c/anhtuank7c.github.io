@@ -18,6 +18,8 @@ const config: Config = {
   organizationName: 'anhtuank7c', // Usually your GitHub org/user name.
   projectName: 'anhtuank7c.github.io', // Usually your repo name.
 
+  trailingSlash: false,
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -25,8 +27,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'vi',
-    locales: ['vi', 'en'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -59,6 +61,10 @@ const config: Config = {
       {
         name: 'keywords',
         content: 'anhtuank7c, reactjs, react native, expo, svelte, sveltekit, solid principles, clean architecture, tutorials, dev, lập trình'
+      },
+      {
+        name: 'description',
+        content: 'Personal technology blog of Nguyễn Anh Tuấn. I share all the thing related to ReactJS, React Native, Expo, Svelte, SvelteKit, SOLID principles, Clean Architecture and more'
       }
     ],
     headTags: [
@@ -69,15 +75,39 @@ const config: Config = {
         },
         innerHTML: JSON.stringify({
           '@context': 'https://schema.org/',
-          '@type': 'Organization',
-          name: 'Meta Open Source',
-          url: 'https://opensource.fb.com/',
-          logo: 'https://opensource.fb.com/img/logos/Meta-Open-Source.svg',
+          '@type': 'Person',
+          familyName: 'Nguyễn Anh',
+          givenName: 'Tuấn',
+          name: "Tuấn",
+          jobTitle: "Senior Software Engineering",
+          colleague: [
+            "https://www.youtube.com/@anhtuank7c",
+            "https://tiktok.com/@anhtuank7c",
+            "https://twitter.com/anhtuank7c",
+            "https://www.facebook.com/tuanna065",
+            "https://www.github.com/anhtuank7c",
+          ],
+          offers: {
+            "@type": "Offer",
+            url: "/pricing",
+            price: 30,
+            priceCurrency: "USD",
+            avaibility: "https://schema.org/InStock"
+          },
+          email: "mailto:anhtuank7c@hotmail.com",
+          url: 'https://anhtuank7c.dev/',
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Quảng Ninh",
+            addressRegion: "QN",
+            postalCode: "02211",
+            streetAddress: "63 Vạn Triều, Minh Thành, Quảng Yên, Quảng Ninh, Việt Nam"
+          },
         })
       }
     ],
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/anhtuank7c.jpg',
     navbar: {
       title: 'ANHTUANK7C',
       logo: {
@@ -85,16 +115,16 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://www.youtube.com/@anhtuank7c',
+          label: 'Youtube',
           position: 'right',
         },
       ],
@@ -102,29 +132,33 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        // {
+        //   title: 'About',
+        //   items: [
+        //     {
+        //       label: 'My Resume',
+        //       to: '/resume',
+        //     },
+        //   ],
+        // },
         {
-          title: 'Docs',
+          title: 'Follow',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/@anhtuank7c',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Tiktok',
+              href: 'https://www.tiktok.com/@anhtuank7c',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/anhtuank7c',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/tuanna065',
             },
           ],
         },
@@ -137,12 +171,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/anhtuank7c',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nguyễn Anh Tuấn. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nguyễn Anh Tuấn`,
     },
     prism: {
       theme: prismThemes.github,

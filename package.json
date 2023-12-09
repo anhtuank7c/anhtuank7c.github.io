@@ -1,7 +1,7 @@
 {
-  "name": "anhtuank-7-c-blog",
-  "version": "0.0.0",
-  "private": true,
+  "name": "anhtuank7c-dev",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

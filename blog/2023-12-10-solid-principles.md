@@ -4,21 +4,20 @@ title: SOLID principles
 authors: [anhtuank7c]
 tags: [solid principles, software development principles, don't repeat yourself, dependency inversion, dependency injection]
 ---
-> In this post, I will introduce SOLID principles, pros and cons.
 
 ### What is SOLID principles?
 
-> SOLID principles are set of principles that help to write maintainable, flexible and testable program.
+SOLID principles are set of principles that help to write maintainable, flexible and testable program.
 
-<!--truncate-->
-
-SOLID stand for:
+**SOLID stand for**:
 
 * S: Single Responsibility Principle (SRP)
 * O: Open Close Principle (OCP)
 * L: Liskov Substitution Principle (LSP)
 * I: Interface Segregation Principle (ISP)
 * D: Dependency Inversion Principle (DIP)
+
+<!--truncate-->
 
 ### Pros and cons of SOLID principles?
 
