@@ -1,6 +1,7 @@
 ---
 slug: single-responsibility-principle
 title: Single Resonsibility Principle (SRP)
+description: Single Responsibility Principle (SRP) là nguyên tắc đơn nhiệm. Mỗi class chỉ nên chịu trách nhiệm về một và chỉ một nhiệm vụ cụ thể.
 authors: [anhtuank7c]
 tags: [solid principles, single responsibility principle, software development principle]
 ---
