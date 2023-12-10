@@ -1,6 +1,4 @@
 ---
-slug: resume
-title: Resume of Tuan Nguyen
+slug: welcome
+title: Welcome to my site
 ---
-
-Resume content

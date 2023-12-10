@@ -32,8 +32,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Chào mừng bạn đến với blog anhtuank7c`}
+      description="Blog cá nhân, chia sẻ các chủ đề về công nghệ, lập trình, framework như ReactJS, React Native, Expo, Svelte, SvelteKit, Elysia, Bun và các nguyên tắc thiết kế trong xây dựng phần mềm">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

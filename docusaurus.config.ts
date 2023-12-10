@@ -27,8 +27,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'vi',
+    locales: ['vi'],
   },
 
   presets: [
@@ -62,10 +62,6 @@ const config: Config = {
         name: 'keywords',
         content: 'anhtuank7c, reactjs, react native, expo, svelte, sveltekit, solid principles, clean architecture, tutorials, dev, lập trình'
       },
-      {
-        name: 'description',
-        content: 'Personal technology blog of Nguyễn Anh Tuấn. I share all the thing related to ReactJS, React Native, Expo, Svelte, SvelteKit, SOLID principles, Clean Architecture and more'
-      }
     ],
     headTags: [
       {
