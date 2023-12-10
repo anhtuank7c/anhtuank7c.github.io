@@ -12,7 +12,7 @@ SOLID principles là một tập các nguyên tắc (principle) giúp tổ chứ
 
 **SOLID là viết tắt chữ cái đầu tiên của các nguyên tắc sau**:
 
-* S: Single Responsibility Principle(SRP)
+* S: [Single Responsibility Principle(SRP)](https://anhtuank7c.dev/blog/single-responsibility-principle)
 * O: Open Close Principle(OCP)
 * L: Liskov Substitution Principle(LSP)
 * I: Interface Segregation Principle(ISP)
