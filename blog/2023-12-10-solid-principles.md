@@ -1,5 +1,5 @@
 ---
-slug: solid - principles
+slug: solid-principles
 title: SOLID principles là gì?
 authors: [anhtuank7c]
 
