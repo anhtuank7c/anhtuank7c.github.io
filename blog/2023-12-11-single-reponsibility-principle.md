@@ -16,6 +16,8 @@ Vì sao lại đơn nhiệm?
 
 Vì nó đơn giản, dễ hiểu và dễ nắm bắt, dễ dàng bảo trì và mở rộng, đồng thời dễ dàng trong việc viết unit test.
 
+<!--truncate-->
+
 ### Ví dụ
 
 Dưới dây là ví dụ về class vi phạm (violate) nguyên tắc đơn nhiệm (Single Responsibility Principle)
