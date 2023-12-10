@@ -103,7 +103,7 @@ const config: Config = {
       }
     ],
     // Replace with your project's social card
-    image: 'img/anhtuank7c.jpg',
+    image: 'img/anhtuank7c-cover.webp',
     navbar: {
       title: 'ANHTUANK7C',
       logo: {
