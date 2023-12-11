@@ -10,6 +10,8 @@ tags: [solid principles, single responsibility principle, software development p
 ![single responsibility principle](/img/single-responsibility-principle.webp)
 Tiếp diễn chuỗi bài viết về [SOLID principle](https://anhtuank7c.dev/blog/solid-principles), bài này mình sẽ đi sâu vào **Single Responsibility Principle (SRP)**
 
+<!--truncate-->
+
 ### Single Responsibility Principle (SRP) là gì?
 
 > SRP được dịch một cách ngắn gọn là **nguyên tắc đơn nhiệm**. Mỗi class chỉ nên chịu trách nhiệm về một và chỉ một nhiệm vụ cụ thể.
@@ -17,8 +19,6 @@ Tiếp diễn chuỗi bài viết về [SOLID principle](https://anhtuank7c.dev/
 Vì sao lại đơn nhiệm?
 
 Vì nó đơn giản, dễ hiểu và dễ nắm bắt, dễ dàng bảo trì và mở rộng, đồng thời dễ dàng trong việc viết unit test.
-
-<!--truncate-->
 
 ### Ví dụ
 

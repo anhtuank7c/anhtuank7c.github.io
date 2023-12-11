@@ -10,11 +10,11 @@ tags: [Open Close Principle, solid principles, software development principle]
 
 Tiếp nối chuỗi bài viết [SOLID principles](https://anhtuank7c.dev/blog/solid-principles), hôm nay chúng ta sẽ tìm hiểu về Nguyên tắc đóng mở (Open Close Principle)
 
+<!--truncate-->
+
 ### Định nghĩa
 
 Nguyên tắc đóng mở (Open Close Principle) khuyến khích việc thiết kế các thực thể (entities) như class, module... theo hướng mở cửa cho việc mở rộng (open for extension)  và đóng cửa với việc sửa đổi (close for modification)
-
-<!--truncate-->
 
 ## Ví dụ
 

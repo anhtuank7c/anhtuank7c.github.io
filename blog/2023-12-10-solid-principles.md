@@ -9,6 +9,8 @@ tags: [solid principles, software development principles, don't repeat yourself,
 ![solid principles](/img/solid-principles.webp)
 ### SOLID principles là gì?
 
+<!--truncate-->
+
 SOLID principles là một tập các nguyên tắc (principle) giúp tổ chức code theo cách dễ bảo trì, linh động và dễ dàng kiểm thử hơn.
 
 **SOLID là viết tắt chữ cái đầu tiên của các nguyên tắc sau**:
@@ -18,8 +20,6 @@ SOLID principles là một tập các nguyên tắc (principle) giúp tổ chứ
 * L: Liskov Substitution Principle(LSP)
 * I: Interface Segregation Principle(ISP)
 * D: Dependency Inversion Principle(DIP)
-
-<!--truncate-->
 
 > Lưu ý: một vài thuật ngữ mình sẽ không dịch ra Tiếng Việt, hoặc dịch nhưng vẫn để từ khóa Tiếng Anh bên cạnh để tránh hiểu lầm hoặc sai ý nghĩa. Mong các bạn thông cảm.
 
