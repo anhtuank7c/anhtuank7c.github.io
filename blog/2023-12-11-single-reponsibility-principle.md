@@ -14,7 +14,9 @@ Tiếp diễn chuỗi bài viết về [SOLID principle](https://anhtuank7c.dev/
 
 ### Single Responsibility Principle (SRP) là gì?
 
-> SRP được dịch một cách ngắn gọn là **nguyên tắc đơn nhiệm**. Mỗi class chỉ nên chịu trách nhiệm về một và chỉ một nhiệm vụ cụ thể.
+SRP được dịch một cách ngắn gọn là **nguyên tắc đơn nhiệm**. Mỗi class chỉ nên chịu trách nhiệm về một và chỉ một nhiệm vụ cụ thể.
+
+Nguyên tắc này được [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) giới thiệu năm 2003, ông còn hay được gọi với cái tên **Uncle Bob**
 
 Vì sao lại đơn nhiệm?
 
