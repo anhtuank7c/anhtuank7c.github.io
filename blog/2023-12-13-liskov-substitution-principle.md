@@ -118,7 +118,7 @@ class RegularOrder extends Order {
     }
 }
 
-class DiscountOrder extends Order {
+class DiscountedOrder extends Order {
     totalAmount: number
     discountPercentage: number
     
@@ -141,7 +141,7 @@ const regularOrder = new RegularOrder(100)
 regularOrder.processOrder()
 // Processing order with total amount: $100
 
-const discountedOrder = new DiscountOrder(100, 10)
+const discountedOrder = new DiscountedOrder(100, 10)
 discountedOrder.processOrder()
 // Processing order with total amount: $90
 ```
