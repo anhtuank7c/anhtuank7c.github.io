@@ -173,7 +173,15 @@ describe('DiscountedOrder', () => {
 })
 ```
 
+## Hỏi đáp
 
+**Q: Làm thế nào để ứng dụng nguyên tắc thay thế Liskov trong code của bạn?**
+
+A: Để ứng dụng nguyên tắc thay thế Liskov, tôi làm theo các bước sau:
+
+* Đảm bảo các object của lớp con có thể thay thế object của lớp cha mà không làm thay đổi tính chính xác (đúng đắn) của chương trình.
+* Các lớp con không được thay đổi điều kiện ở method tại lớp cha.
+* Các lớp con không được đưa ra các ngoại lệ mới mà nó không tồn tại trong lớp cha.
 
 ## Tổng kết
 
