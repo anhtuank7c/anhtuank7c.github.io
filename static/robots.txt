@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anhtuank7c.dev/sitemap.xml
