@@ -21,7 +21,7 @@ Nguyên tắc thay thế Liskov được [Barbara Liskov](https://en.wikipedia.o
 
 ## Ví dụ
 
-Hãy tìm hiểu sâu hơn về nguyên tắc này qua các ví dụ
+Hãy tìm hiểu sâu hơn về nguyên tắc này qua ví dụ sau
 
 ### Vi phạm nguyên tắc thay thế Liskov
 
