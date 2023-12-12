@@ -163,6 +163,16 @@ it('calculate rectangle area correctly', () => {
 
 > Unit test mình luôn sử dụng Jest nhé. Các bạn muốn tìm hiểu thêm về jest thì mình sẽ viết riêng một hoặc vài bài về jest.
 
+## Hỏi đáp
+
+**Q: Làm thế nào để ứng dụng nguyên tắc đóng mở vào code của bạn?**
+
+A: Để ứng dụng nguyên tắc đóng mở, tôi thực hiện các bước sau:
+
+* Thiết kế class có thể dễ dàng mở rộng
+* Sử dụng các abstract class hoặc interface để định nghĩa phần mở rộng
+* Tránh sửa đổi code cũ khi thêm tính năng hay chức năng mới.
+
 ## Kết luận
 
 Nguyên tắc đóng mở (Open Close Principle) mang lại rất nhiều lợi ích khi bạn mở rộng mà không phá vỡ hệ thống. Đảm bảo hệ thống hoạt động ổn định đồng thời dễ bảo trì, dễ kiểm thử (unit test), dễ đọc và dễ nắm bắt.
