@@ -91,7 +91,7 @@ class DiscountedOrder extends Order {
 
 ```
 
-Ở ví dụ này, chúng ta tạo thêm method mới là `applyDiscount` , giờ đây hành vi của method `processOrder` đã trở về nguyên bản như ở class Order, việc tính toán giảm giá sẽ do method `applyOrder` xử lý.
+Ở ví dụ này, chúng ta tạo thêm method mới là `applyDiscount` , giờ đây hành vi của method `processOrder` đã trở về nguyên bản như ở class Order, việc tính toán giảm giá sẽ do method `applyDiscount` xử lý.
 
 Việc tuân theo nguyên tắc thay thế Liskov này giúp bạn tách bạch được logic, việc tính toán giảm giá thực hiện ở method `applyDiscount`, và method `processOrder` giờ đây chỉ làm đúng trách nhiệm của nó là `processOrder` .
 
