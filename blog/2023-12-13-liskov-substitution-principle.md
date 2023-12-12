@@ -97,6 +97,59 @@ Việc tuân theo nguyên tắc thay thế Liskov này giúp bạn tách bạch 
 
 Đồng thời hành vi của `processOrder` không hề bị thay đổi dù ở class **Order** hay ở class **DiscountedOrder**.
 
+Hãy thử thiết kế lại ví dụ trên một lần nữa, lần này chúng ta sử dụng abstract class nhé.
+
+```typescript
+abstract class Order {
+  abstract totalAmount: number
+  abstract processOrder(): void
+}
+
+class RegularOrder extends Order {
+    totalAmount: number;
+    
+    constructor(totalAmount: number) {
+        super()
+        this.totalAmount = totalAmount
+    }
+
+    processOrder(): void {
+      console.log(`Processing order with total amount: $${this.totalAmount}`);
+    }
+}
+
+class DiscountOrder extends Order {
+    totalAmount: number
+    discountPercentage: number
+    
+    constructor(totalAmount: number, discountPercentage: number) {
+        super()
+        this.totalAmount = totalAmount
+        this.discountPercentage = discountPercentage
+    }
+
+    applyDiscount(): number {
+        return this.totalAmount - (this.totalAmount * this.discountPercentage) / 100
+    }
+
+    processOrder(): void {
+        const discountedAmount = this.applyDiscount()
+        console.log(`Processing order with total amount: $${discountedAmount}`)
+    }
+}
+const regularOrder = new RegularOrder(100)
+regularOrder.processOrder()
+// Processing order with total amount: $100
+
+const discountedOrder = new DiscountOrder(100, 10)
+discountedOrder.processOrder()
+// Processing order with total amount: $90
+```
+
+Ở ví dụ này mình không implement `processOrder` ở abstract class Order nữa mà chuyển sang lớp trừu tượng (abstract class)
+
+Các class kế thừa từ lớp trừu tượng sẽ tự implement logic cho `processOrder` mà không làm ảnh hưởng gì tới tính đúng đắn của class **Order**
+
 ## Unit test
 
 Vẫn như mọi khi, unit test là điều không thể thiếu khi tuân theo [SOLID principles](https://anhtuank7c.dev/blog/solid-principles).
