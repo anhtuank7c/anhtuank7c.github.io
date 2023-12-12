@@ -17,6 +17,8 @@ Tiếp nối chuỗi bài viết [SOLID principles](https://anhtuank7c.dev/blog/
 
 Nguyên tắc đóng mở (Open Close Principle) khuyến khích việc thiết kế các thực thể (entities) như class, module... theo hướng mở cửa cho việc mở rộng (open for extension)  và đóng cửa với việc sửa đổi (close for modification)
 
+Hay đơn giản hơn là mỗi khi muốn thêm chức năng nào đó, bạn hãy viết class mới để mở rộng bằng cách kế thừa class cũ, không được sửa class cũ.
+
 Nguyên tắc này được giới thiệu bởi [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer) năm 1988.
 
 ## Ví dụ
