@@ -19,13 +19,13 @@ Tiếp nối chuỗi bài SOLID principles, bài này chúng ta cùng tìm hiể
 
 Nguyên tắc đảo ngược phụ thuộc (DIP) là nguyên tắc mà trong đó nhấn mạnh **module cấp cao** chỉ được phụ thuộc vào các lớp trừu tượng (abstraction/interface) của **module cấp thấp**.
 
-Nguyên tắc này được giới thiệu bởi [Robert C. Martin - Wikipedia](https://en.wikipedia.org/wiki/Robert_C._Martin) hay còn gọi là **Uncle Bob**.
+Nguyên tắc này được giới thiệu bởi [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) hay còn gọi là **Uncle Bob**.
 
 Có thể thấy **Uncle Bob** đã đóng góp 3/5 nguyên tắc trong bộ [SOLID principles](https://anhtuank7c.dev/blog/solid-principles) bao gồm:
 
 * [Single Resonsibility Principle (SRP)](https://anhtuank7c.dev/blog/single-responsibility-principle)
 * [Interface Segregation Principle (ISP)](https://anhtuank7c.dev/blog/interface-segregation-principle)
-* Dependency Inversion Principle (DIP)
+* [Dependency Inversion Principle (DIP)](https://anhtuank7c.dev/blog/dependency-inversion-principle)
 
 Trong định nghĩa trên có 02 điểm chưa rõ ràng, module cấp cao là gì? module cấp thấp là gì?
 
