@@ -4,7 +4,7 @@ title: Liskov Substitution Principle (LSP)
 description: Tiếp nối chuỗi bài viết SOLID principles, hôm nay chúng ta sẽ tìm hiểu về Nguyên tắc thay thế Liskov (Liskov Substitution Principle)
 image: /img/liskov-substitution-principle.webp
 authors: [anhtuank7c]
-tags: [Liskov Substitution Principle, solid principles, software development principle]
+tags: [Liskov Substitution Principle, Solid Principles]
 ---
 
 ![Liskov Substitution Principle](/img/liskov-substitution-principle.webp)

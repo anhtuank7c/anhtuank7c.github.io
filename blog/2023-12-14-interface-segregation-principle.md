@@ -4,7 +4,7 @@ title: Interface Segregation Principle (ISP)
 description: Tiếp theo chuỗi bài về SOLID principles, bài này chúng ta sẽ tìm hiểu về nguyên tắc phân tách Interface (ISP) nhé
 authors: [anhtuank7c]
 image: /img/interface-segregation-principle.webp
-tags: [Interface Segregation Principle, solid principles]
+tags: [Interface Segregation Principle, Solid Principles]
 ---
 
 ![Interface Segregation Principle (ISP)](/img/interface-segregation-principle.webp)

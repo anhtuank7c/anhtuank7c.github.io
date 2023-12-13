@@ -4,7 +4,7 @@ title: SOLID principles là gì?
 description: SOLID principles là một tập các nguyên tắc (principle) giúp tổ chức code theo cách dễ bảo trì, linh động và dễ dàng kiểm thử hơn.
 authors: [anhtuank7c]
 image: /img/solid-principles.webp
-tags: [solid principles, software development principles, don't repeat yourself, dependency inversion, dependency injection]
+tags: [Solid Principles, Dependency Inversion Principle, Liskov Substitution Principle, Open Close Principle, Interface Segregation Principle, Single Responsibility Principle]
 ---
 ![solid principles](/img/solid-principles.webp)
 ### SOLID principles là gì?
