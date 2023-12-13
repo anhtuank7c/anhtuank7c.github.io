@@ -13,7 +13,7 @@ Tiếp nối chuỗi bài viết [SOLID principles](https://anhtuank7c.dev/blog/
 
 <!--truncate-->
 
-### Định nghĩa
+## Định nghĩa
 
 Nguyên tắc đóng mở (Open Close Principle) khuyến khích việc thiết kế các thực thể (entities) như class, module... theo hướng mở cửa cho việc mở rộng (open for extension)  và đóng cửa với việc sửa đổi (close for modification)
 
@@ -21,9 +21,9 @@ Hay đơn giản hơn là mỗi khi muốn thêm chức năng nào đó, bạn h
 
 Nguyên tắc này được giới thiệu bởi [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer) năm 1988.
 
-## Ví dụ
+Chúng ta hãy tìm hiểu kỹ hơn qua ví dụ thực tế nhé.
 
-### Ví dụ vi phạm OCP
+## Ví dụ vi phạm nguyên tắc đóng mở (OCP)
 
 ```typescript
 // Violating OCP
@@ -59,7 +59,7 @@ class Circle extends Shape {
 
 Việc sửa đổi này hoàn toàn đi ngược lại với nguyên tắc đóng mở vì cần phải sửa đổi class `Shape`.
 
-### Ví dụ tuân theo OCP
+## Ví dụ tuân theo nguyên tắc đóng mở (OCP)
 
 Chúng ta hãy thiết kế lại các class này để giúp nó dễ dàng mở rộng mà lại không cần sửa đổi nhé.
 
