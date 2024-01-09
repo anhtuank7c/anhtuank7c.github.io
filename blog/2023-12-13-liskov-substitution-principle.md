@@ -13,9 +13,18 @@ Tiếp nối chuỗi bài viết [SOLID principles](https://anhtuank7c.dev/blog/
 
 <!--truncate-->
 
-## Định nghĩa
+## Liskov Substitution Principle (LSP) là gì?
 
-Đối tượng (object) ở lớp cha (parent class hay superclass) có thể thay thế bằng đối tượng (object) ở lớp con của nó (its subclass) mà không phá vỡ (break) sự đúng đắn (correctness) của chương trình.
+Nếu **S** là kiểu con của **T** thì các đối tượng kiểu **T** trong chương trình có thể được thay thế bằng các đối tượng kiểu **S** mà ***không làm thay đổi*** bất kỳ thuộc tính/hành vi mong muốn nào của chương trình.
+
+Hay nói cách khác, Liskov Substitution Principle định nghĩa ra một hợp đồng mà các lớp dẫn xuất (derived classes) phải tuân thủ để có thể thay thế thực sự cho các lớp cơ sở của chúng.
+
+### Mục tiêu của LSP
+
+* **Khả năng thay thế**: đối tượng (object) của lớp dẫn xuất có thể thay thế các đối tượng của lớp cơ sở mà không ảnh hưởng tới tính chính xác của chương trình. Điều này cho phép đa hình (polymorphism) và tăng cường tính linh hoạt của chương trình.
+* **Bảo tồn hành vi**: các lớp dẫn xuất nên duy trì hoặc mở rộng hành vi của lớp cơ sở.
+* **Dễ dàng hoán đổi**: các lớp dẫn xuất dễ dàng hoán đổi cho lớp cơ sở trong mọi ngữ cảnh. Điều này thúc đẩy mức trừu tượng cao, và cho phép viết mã code được viết theo cách độc lập và triển khai cụ thể. (specific concrete implementation)
+* **Tính nhất quán**: LSP giúp tạo ra hành vi nhất quán và có thể đoán trước được trong hệ thống phân cấp của các lớp. Nó ngăn chặn tác dụng phụ không mong muốn hoặc ngăn chặn thay đổi hành vi khi sử dụng các lớp dẫn xuất.
 
 Nguyên tắc thay thế Liskov được [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov) giới thiệu trong một hội nghị năm 1987.
 
@@ -27,149 +36,120 @@ Hãy tìm hiểu sâu hơn về nguyên tắc này qua ví dụ sau
 
 ```typescript
 // Violating LSP
-class Order {
-  constructor(private totalAmount: number) {}
+class Rectangle {
+    protected width: number = 0
+    protected height: number = 0
 
-  getTotalAmount(): number {
-    return this.totalAmount;
-  }
+    setWidth(width: number) {
+        this.width = width;
+    }
 
-  processOrder(): void {
-    console.log(`Processing order with total amount: $${this.totalAmount}`);
-  }
+    setHeight(height: number) {
+        this.height = height;
+    }
+
+    area(): number {
+        return this.width * this.height;
+    }
 }
 
-class DiscountedOrder extends Order {
-  constructor(totalAmount: number, private discountPercentage: number) {
-    super(totalAmount);
-  }
+class Square extends Rectangle {
+    // Violates LSP by changing behavior
+    setHeight(height: number) {
+        this.height = height;
+        this.width = height;
+    }
 
-  // vi phạm LSP vì method processOrder đã thay đổi hoàn toàn hành vi so với class Order
-  processOrder(): void {
-    const discountedAmount = this.getTotalAmount() - (this.getTotalAmount() * this.discountPercentage) / 100;
-    console.log(`Processing discounted order with total amount: $${discountedAmount}`);
-  }
+    // Violates LSP by changing behavior
+    setWidth(width: number) {
+        this.height = width;
+        this.width = width;
+    }
 }
+
+function printArea(shape: Rectangle): void {
+    shape.setWidth(5);
+    shape.setHeight(10);
+    console.log(`Area: ${shape.area()}`);
+}
+
+const rect = new Rectangle()
+const square = new Square()
+printArea(rect) // 50 correct
+printArea(square) // 100 => What the heck is that?
 ```
 
-Ở ví dụ này, method `processOrder` nguyên bản ở class **Order** chỉ làm một việc duy nhất là console.log, trong khi đó method này bị thay đổi ở class **DiscountedOrder**, cụ thể là tính toán mức giảm giá rồi mới thực hiện console.log
+Ở ví dụ này mình đã ép 2 cạnh *width* và *height* bằng nhau khi *setWidth*, *setHeight* trong class Square. Hành vi *setWidth*, *setHeight* của lớp cơ sở (class Rectangle) đã bị thay đổi.
 
-Hành vi bị thay đổi này đã dẫn tới việc vi phạm nguyên tắc thay thế Liskov.
+Điều này rõ ràng là đã vi phạm nguyên tắc Liskov Substitution.
 
 ### Tuân theo nguyên tắc thay thế Liskov
 
 Chúng ta hãy cùng thiết kế lại các class trong ví dụ trên nhé
 
 ```typescript
-// Adhering LSP
-class Order {
-  constructor(private totalAmount: number) {}
+// Adhering to LSP with an abstract class
+abstract class Shape {
+    protected width: number = 0;
+    protected height: number = 0;
 
-  getTotalAmount(): number {
-    return this.totalAmount;
-  }
+    setDimensions(width: number, height: number): void {
+        this.width = width;
+        this.height = height;
+    }
 
-  processOrder(): void {
-    console.log(`Processing order with total amount: $${this.totalAmount}`);
-  }
+    abstract area(): number;
 }
 
-class DiscountedOrder extends Order {
-  constructor(totalAmount: number, private discountPercentage: number) {
-    super(totalAmount);
-  }
-
-  applyDiscount(): number {
-    return this.getTotalAmount() - (this.getTotalAmount() * this.discountPercentage)/100;
-  }
-
-  processOrder(): void {
-    const discountedAmount = this.applyDiscount()
-    console.log(`Processing discounted order with total amount: $${discountedAmount}`);
-  }
+class Rectangle extends Shape {
+    area(): number {
+        return this.width * this.height;
+    }
 }
 
+class Square extends Shape {
+    setDimensions(side: number): void {
+        // Adheres to LSP by maintaining the base class behavior
+        super.setDimensions(side, side);
+    }
+
+    area(): number {
+        return this.width * this.height;
+    }
+}
+
+// Function expecting a Shape
+function printArea(shape: Shape): void {
+    shape.setDimensions(5, 10);
+    console.log(`Area: ${shape.area()}`);
+}
+
+// Create an instance of Square (derived class)
+const square = new Square();
+
+// Use the function with the derived class object
+printArea(square);
+// Output: Area: 50 (adheres to LSP)
 ```
 
-Ở ví dụ này, chúng ta tạo thêm method mới là `applyDiscount` , giờ đây hành vi của method `processOrder` đã trở về nguyên bản như ở class Order, việc tính toán giảm giá sẽ do method `applyDiscount` xử lý.
-
-Việc tuân theo nguyên tắc thay thế Liskov này giúp bạn tách bạch được logic, việc tính toán giảm giá thực hiện ở method `applyDiscount`, và method `processOrder` giờ đây chỉ làm đúng trách nhiệm của nó là `processOrder` .
-
-Đồng thời hành vi của `processOrder` không hề bị thay đổi dù ở class **Order** hay ở class **DiscountedOrder**.
-
-Hãy thử thiết kế lại ví dụ trên một lần nữa, lần này chúng ta sử dụng abstract class nhé.
-
-```typescript
-abstract class Order {
-  abstract totalAmount: number
-  abstract processOrder(): void
-}
-
-class RegularOrder extends Order {
-    totalAmount: number;
-    
-    constructor(totalAmount: number) {
-        super()
-        this.totalAmount = totalAmount
-    }
-
-    processOrder(): void {
-      console.log(`Processing order with total amount: $${this.totalAmount}`);
-    }
-}
-
-class DiscountedOrder extends Order {
-    totalAmount: number
-    discountPercentage: number
-    
-    constructor(totalAmount: number, discountPercentage: number) {
-        super()
-        this.totalAmount = totalAmount
-        this.discountPercentage = discountPercentage
-    }
-
-    applyDiscount(): number {
-        return this.totalAmount - (this.totalAmount * this.discountPercentage) / 100
-    }
-
-    processOrder(): void {
-        const discountedAmount = this.applyDiscount()
-        console.log(`Processing order with total amount: $${discountedAmount}`)
-    }
-}
-const regularOrder = new RegularOrder(100)
-regularOrder.processOrder()
-// Processing order with total amount: $100
-
-const discountedOrder = new DiscountedOrder(100, 10)
-discountedOrder.processOrder()
-// Processing order with total amount: $90
-```
-
-Ở ví dụ này mình không implement `processOrder` ở abstract class Order nữa mà chuyển sang lớp trừu tượng (abstract class)
-
-Các class kế thừa từ lớp trừu tượng sẽ tự implement logic cho `processOrder` mà không làm ảnh hưởng gì tới tính đúng đắn của class **Order**
+Ở ví dụ này chúng ta bảo tồn được hành vi `setDimensions(number, number)`  và `area()` ở lớp cơ sở (class Shape), bạn có thể mở rộng thêm nữa sang các class như Hexagon, Circle nếu muốn.
 
 ## Unit test
 
 Vẫn như mọi khi, unit test là điều không thể thiếu khi tuân theo [SOLID principles](https://anhtuank7c.dev/blog/solid-principles).
 
 ```typescript
-it('able to process order', () => {
-  const order = new Order(100)
-  expect(order.processOrder()).not.toThrow()
+it('able to calculate square area', () => {
+    const square = new Square()
+    square.setDimentions(5)
+    expect(square.area()).toEqual(25)
 })
 
-describe('DiscountedOrder', () => {
-  it('must apply discount correctly', () => {
-    const order = new DiscountedOrder(100, 10)
-    expect(order.applyDiscount()).toEqual(90)
-  })
-
-  it('able to process discounted order', () => {
-    const order = new DiscountedOrder(100, 10)
-    expect(order.processOrder()).not.toThrow()
-  })
+it('able to replace subtype by base class instance', () => {
+    const square = new Square()
+    const shape = square as Shape;
+    shape.setDimentions(5, 10)
+    expect(shape.area()).toEqual(25)
 })
 ```
 
@@ -179,13 +159,13 @@ describe('DiscountedOrder', () => {
 
 A: Để ứng dụng nguyên tắc thay thế Liskov, tôi làm theo các bước sau:
 
-* Đảm bảo các object của lớp con có thể thay thế object của lớp cha mà không làm thay đổi tính chính xác (đúng đắn) của chương trình.
-* Các lớp con không được thay đổi điều kiện ở method tại lớp cha.
+* Đảm bảo các object của lớp con có thể thay thế bằng object của lớp cha mà không làm thay đổi bất kỳ thuộc tính, hành vi nào của chương trình.
+* Các lớp con không được thay đổi hành vi của lớp cha.
 * Các lớp con không được đưa ra các ngoại lệ mới mà nó không tồn tại trong lớp cha.
 
 ## Tổng kết
 
-Nguyên tắc thay thế Liskov (Liskov Substitution Principle) hữu ích trong việc đảm bảo hành vi luôn ổn định và thống nhất xuyên suốt chương trình.
+Nguyên tắc thay thế Liskov (Liskov Substitution Principle) hữu ích trong việc đảm bảo hành vi luôn nhất quán và dễ dàng đoán trước xuyên suốt chương trình.
 
 Việc thực hành nguyên tắc này giúp bạn nhận thức rõ ràng hơn về tính mạch lạc, tin cậy, đồng thời cũng giúp viết unit test dễ dàng hơn.
 
