@@ -1,6 +1,6 @@
 ---
 slug: dependency-inversion-principle
-title: Dependency Inversion Principle (DIP)
+title: Dependency Inversion Principle (DIP) là gì?
 description: Tiếp nối chuỗi bài SOLID principles, bài này chúng ta cùng tìm hiểu nguyên tắc đảo ngược phụ thuộc (dependency inversion principle) là gì và nó quan trọng ra sao nhé.
 image: /img/dependency-inversion-principle.webp
 authors: [anhtuank7c]

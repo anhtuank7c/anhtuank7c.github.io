@@ -1,6 +1,6 @@
 ---
 slug: open-close-principle
-title: Open Close Principle (OCP)
+title: Open Close Principle (OCP) là gì?
 image: /img/open-close-principle.webp
 description: Tiếp nối chuỗi bài viết [SOLID principles](https://anhtuank7c.dev/blog/solid-principles), hôm nay chúng ta sẽ tìm hiểu về Nguyên tắc đóng mở (Open Close Principle)
 authors: [anhtuank7c]
