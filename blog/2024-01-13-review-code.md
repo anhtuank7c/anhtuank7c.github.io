@@ -13,6 +13,8 @@ image: /img/review-code.webp
 
 Review code là một hoạt động quan trọng trong quá trình phát triển phần mềm, nơi các đồng nghiệp kiểm tra và đánh giá chéo mã code của nhau.
 
+<!--truncate-->
+
 ## Vì sao cần review code?
 
 Việc con người gây ra lỗi là điều không mong muốn nhưng cũng không hoàn toàn tránh được (Có nhiều yếu tố khiến con người gây ra lỗi như thể trạng sức khỏe, tâm lý, tiếng ồn, suy giảm sự tập chung, etc...). Vì vậy chúng ta cần review code để giảm thiểu rủi ro tiềm tàng cho hệ thống càng sớm càng tốt.
