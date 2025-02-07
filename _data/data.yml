@@ -287,24 +287,20 @@ oss:
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    I've a few public talk in Facebook Developer Circle in Hanoi and write technical blogs
+
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: Facebook Developer Circle Hanoi Talk 01
+    authors: Tuan Nguyen
+    link: https://www.facebook.com/events/160930598009755/
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  - title: Facebook Developer Circle Hanoi Talk 02
+    authors: Tuan Nguyen
+    link: https://www.facebook.com/events/144339639568606/
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  - title: Technical blog
+    authors: Tuan Nguyen
+    link: https://anhtuank7c.dev
 
 recommendations:
   title: Recommendations
