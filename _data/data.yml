@@ -5,7 +5,7 @@
 sidebar:
   position: left # position of the sidebar : left or right
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Tuan Nguyen Anh
@@ -85,6 +85,11 @@ career-profile:
 education:
   title: Education
   info:
+  - degree: NOD (No Official Degree)
+    university: Self taught
+    time: 2011 - Now
+    details: I am up for learn new things that can help me grow as a software engineer and become a better manager. I don't hesitate to dig into problems. I enjoy accomplishment each time solved a problem.
+
   - degree: Bachelor's Degree
     university: Ho Chi Minh University of Technology
     time: 2007 - 2011
@@ -111,7 +116,7 @@ experiences:
       Led technology strategy and team management for a multi-service digital enterprise.
       Key Achievements:
 
-      - Restructured payment systems and managed 500+ Laravel-based ecommerce sites, ensuring 99.9% uptime
+      - Restructured payment systems and managed 500+ Laravel-based ecommerce sites, ensuring 95% uptime
       - Implemented real-time infrastructure monitoring dashboard and DDoS protection system, reducing security incidents by 90%
       - Optimized infrastructure costs through strategic reorganization, achieving 40% reduction in yearly operational expenses
       - Led and mentored a cross-functional team of 10 (developers, BAs, testers), improving team velocity by 40%
@@ -157,20 +162,27 @@ experiences:
 
       Tech: Swift, Kotlin, React Native, TypeScript, Firebase Eco System, MixPanel
 
-  - role: Junior Software Engineer
+  - role: Junior Software Engineer & Team Lead
     time: 2017 - 2018
     company: AgileTech, Hanoi Vietnam
     link: https://agiletech.vn
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Led cross-platform mobile development for high-impact client projects.
+      Key Achievements:
 
-  - role: Projectionist & IT Helpdesk
+      - Led 5-person team in developing Drivadz offline advertising tracking platform and TTY marketplace application
+      - Implemented Clean Architecture principles in React Native projects, increasing code coverage by 40% and reducing bug reports by 60%
+      - Architected offline-first tracking system for Drivadz, enabling real-time ad monitoring across urban transportation networks
+      - Designed scalable marketplace infrastructure for TTY, supporting 10K+ daily transactions
+      - Established CI/CD pipelines and testing protocols, reducing deployment time by 50%
+
+      Tech: React Native, Clean Architecture, TypeScript, Real-time Tracking, E-commerce Systems
+
+      Team Size: 5 developers
+
+      Projects: Drivadz (Ad-tech), TTY (E-commerce)
+
+  - role: Projectionist & IT Helpdesk & Team Lead
     time: 2013 - 2017
     company: CGV Cinema, QuangNinh Vietnam
     link: https://cgv.vn
@@ -181,8 +193,11 @@ experiences:
       - Developed efficient troubleshooting protocols for common technical issues, cutting average resolution time from 45 to 15 minutes
       - Coordinated with lounge team on ticket verification and hall maintenance, maintaining 98% customer satisfaction rating
       - Demonstrated strong cross-functional collaboration by supporting multiple departments during peak hours
+      - Collaborated with HQ IT team to manage and deploy software solution to the end users computer.
 
       Tech: Digital Cinema Systems, POS Systems, Network Infrastructure, Hardware Troubleshooting
+
+      Team Size: 4 projectionists
 
   - role: Junior Software Engineer
     time: 2011 - 2013
@@ -204,85 +219,191 @@ experiences:
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: The Complete React Native + Hooks Course
+    start: 2017
+    end: 2017
+    organization: Udemy
+    credentialid:
+    credentialurl: https://www.udemy.com/course/the-complete-react-native-and-redux-course
+    credentialname: Stephen Grider
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      - Create real-world native apps using React Native
+      - Make truly reusable components that look great
+      - Understand the terminology and concepts of Redux
+      - Prototype and deploy your own applications to the Apple and Google Play Stores
+      - Get up to speed with React design principles and methodologies
+      - Discover mobile design patterns used by experienced engineers
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+  - name: Oracle Database Administrator
+    start: 2009
+    end: 2009
+    organization: COMMIT Education
+    credentialid:
+    credentialurl:
+    credentialname: DBA
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Learn to manage Oracle Database, SQL, PL/SQL, setup and manage oracle cluster. Backup and restore database.
+
+  - name: Aptech Certified Network Administrator
+    start: 2008
+    end: 2008
+    organization: Aptech
+    credentialid:
+    credentialurl: https://aptechvietnam.com.vn/
+    credentialname: Aptech
+    details: |
+      Learn to manage Windows Server 2003 services and network infrastructure
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    These are some of my finished projects
+
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: "DDos protection tool"
+    type: linux service
+    link:
+    desc: |
+      A server service for Ubuntu that monitor incoming traffic and block ip that exceed the rate limit, then sync these ip to black list to able to block on the whole infrastructure.
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+      Tech: BashScript, Linux, RESTful API, Cronjob, iptables, ufw
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: "Android Automation Tool"
+    type: desktop app
+    link:
+    desc: |
+      A Desktop application that automate android devices through ADB, can flexiblely define any scenario in yaml format just like GitHub Actions Workflow.
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      Tech: Selenium, Android ADB, Python, RESTful APIS, Telegram Bot, Clean Architecture, Clean Code, CI/CD, YAML, EasyOCR, PyTesseract, OpenCV
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: "Transaction Autocompletion Tool"
+    type: desktop app
+    link:
+    desc: |
+      A Desktop application that auto get transaction from backend to process
+
+      Tech: Selenium, ChromeDriver, Python, RESTful APIS, Telegram Bot, Clean Architecture, Clean Code, CI/CD
+
+  - title: "unsereRegion - Murten"
+    type: mobile app
+    link:
+      - https://play.google.com/store/apps/details?id=ch.unsereregion.murten&hl=en
+      - https://apps.apple.com/mk/app/unsereregion-murtensee/id1543143798
+    desc: |
+      A News App for Murten, Switzerland
+
+      Tech: React Native, Expo, TypeScript, Firebase, Recoil state management, React Navigation, Clean Architecture, Clean Code, Push notification
+
+  - title: unsereRegion - Web Backend V1
+    type: backend
+    link:
+    desc: |
+      Web backend for Murten to manage the whole system
+
+      Tech: ReactJS, Redux, Firebase, TypeScript, Clean Architecture, Clean Code
+
+  - title: unsereRegion - Web Backend V2
+    type: backend
+    link:
+    desc: |
+      Web backend for Murten to manage the whole system
+
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+
+  - title: unsereRegion - Shopping Window
+    type: backend
+    link:
+    desc: |
+      Web backend for shop owner, they can manage theirs ads posts
+
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+
+  - title: unsereRegion - Authority
+    type: backend
+    link:
+    desc: |
+      Web backend for authority, the government can manage their political posts
+
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+
+  - title: Inspiration Mojo
+    type: mobile app
+    link:
+      - https://play.google.com/store/apps/details?id=com.inspirationmojo
+      - https://apps.apple.com/jp/app/inspiration-mojo/id6479371821?l=en-US
+    desc: |
+      An Inspiration App for professional systemic psychological consultant in Austria
+
+      Tech: React Native, Expo, TypeScript, Firebase, zustand state management, mmkv storage, markdown display, Expo Router, Clean Architecture, Clean Code, Push notification
+
+  - title: Inspiration Mojo - Web backend
+    type: backend
+    link:
+    desc: |
+      Web backend where the consultant can manage their psychological course
+
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+
+  - title: "Equilab: Horse & Riding App"
+    type: mobile app
+    link:
+      - https://play.google.com/store/apps/details?id=horse.schvung.equilab&hl=en
+      - https://apps.apple.com/us/app/equilab-horse-riding-app/id1133163586
+    desc: |
+      Ride tracking for equestrians
+
+      Tech: React Native, TypeScript, Firebase, Clean Architecture, Clean Code, native Kotlin/Swift modules, Gyroscope, Accelerometer, Location tracking GPS, Tech To Speech, Push notification, Camera
+
+  - title: Equilab - Horse Gaits analysis tool
+    type: backend
+    link:
+    desc: |
+      Web backend where the consultant can manage their psychological course
+
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+
+  - title: "Tài xế - driVadz"
+    type: mobile app
+    link:
+      - https://play.google.com/store/apps/details?id=com.drivadz.user&hl=en
+      - https://apps.apple.com/us/app/drivadz/id1096504611?l=vi&ls=1
+    desc: |
+      Driver app for Drivadz, tracking ads location real-time
+
+      Tech: React Native, React Navigation, Javascript, RESTful APIs communication, Redux State Management, Location tracking GPS
+
+  - title: "In Nhanh Phúc Hưng"
+    type: web
+    link: https://innhanhphuchung.vn/
+    desc: |
+      Company website where they can manage theirs posts
+
+      Tech: SvelteKit, Markdown, TypeScript, Clean Architecture, Clean Code
+
+  - title: "In Ấn I-MAP"
+    type: web
+    link: https://i-map.vn/
+    desc: |
+      Company website where they can manage theirs posts
+
+      Tech: CakePHP, Mysql, PHP, Bootstrap, Linux
 
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    I have several OSS projects
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: CakePHP Recaptcha
+    link: https://github.com/ctlabvn/Recaptcha
+    tagline: "Easy way to integrate Google Recaptcha v2 to CakePHP project."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Expo STT
+    link: https://github.com/anhtuank7c/expo-stt
+    tagline: "A Speech To Text module for React Native and Expo app"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Sqlite to Excel
+    link: https://github.com/anhtuank7c/sqlite2excel
+    tagline: "Extract all data from Sqlite Database to excel files"
 
 publications:
   title: Publications
@@ -301,6 +422,10 @@ publications:
   - title: Technical blog
     authors: Tuan Nguyen
     link: https://anhtuank7c.dev
+
+  - title: Python knowledge sharing
+    link: https://github.com/anhtuank7c/learn-python
+    authors: Tuan Nguyen
 
 recommendations:
   title: Recommendations
@@ -349,6 +474,9 @@ skills:
     level: 85%
 
   - name: DDos Protection
+    level: 80%
+
+  - name: Linux & BashScript
     level: 80%
 
 footer: >
