@@ -1,0 +1,359 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Tuan Nguyen Anh
+  tagline: Full Stack Developer & CTO
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: anhtuank7c@hotmail.com
+  phone:
+  timezone: Asia/Ho_Chi_Minh # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  website: https://cv.anhtuank7c.dev/ # Include the full website URL, including "http://" or "https://".
+  linkedin: anhtuank7c
+  xing:
+  github: anhtuank7c
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  reddit: anhtuank7c
+  bluesky: '@anhtuank7c.bsky.social' # Specify your full Bluesky handle
+  twitter: '@anhtuank7c'
+  stack-overflow: 2265322/nguyễn-anh-tuấn # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: anhtuank7c # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Languages
+    info:
+    - idiom: English
+      level: Proficiency
+
+    - idiom: Vietnamese
+      level: Native
+
+  interests:
+    title: Tech Stacks
+    info:
+    - item: Svelte & SvelteKit
+      link: https://svelte.dev/
+
+
+    - item: React Native & Expo
+      link: https://expo.dev/
+
+
+    - item: TypeScript
+      link: https://www.typescriptlang.org/
+
+    - item: Web Dev
+      link: https://web.dev/
+
+    - item: TailwindCSS
+      link: https://tailwindcss.com/
+
+    - item: Drizzle ORM
+      link: https://orm.drizzle.team/
+
+    - item: Clean Architecture
+      link: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+
+    - item: Clean Code
+      link: https://github.com/ryanmcdermott/clean-code-javascript
+
+    - item: SOLID principles
+      link: https://anhtuank7c.dev/blog/solid-principles
+
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Results-driven Senior Software Engineer with 8+ years of experience architecting scalable solutions across mobile, web, and enterprise platforms. Proven track record of technical leadership, from optimizing infrastructure costs by 40% as CTO to delivering mission-critical features that increased user engagement by 30%. Passionate about clean architecture, code quality, and mentoring teams to achieve excellence in software delivery.
+
+education:
+  title: Education
+  info:
+  - degree: Bachelor's Degree
+    university: Ho Chi Minh University of Technology
+    time: 2007 - 2011
+    details: Engineering Technology
+
+  - degree: APTECH Certified Network Administrator
+    university: Aprotrain Aptech
+    time: 2007 - 2008
+    details: Network Administrator
+
+  - degree: Database Administrator
+    university: COMMIT Education
+    time: 2008 - 2009
+    details: Oracle Database Administrator 11g
+
+experiences:
+  title: Experiences
+  info:
+  - role: Chief Technology Officer
+    time: Feb 2024 - Present
+    company: HQ Group, Hanoi Vietnam
+    link: https://hqgroups.vn
+    details: |
+      Led technology strategy and team management for a multi-service digital enterprise.
+      Key Achievements:
+
+      - Restructured payment systems and managed 500+ Laravel-based ecommerce sites, ensuring 99.9% uptime
+      - Implemented real-time infrastructure monitoring dashboard and DDoS protection system, reducing security incidents by 90%
+      - Optimized infrastructure costs through strategic reorganization, achieving 40% reduction in yearly operational expenses
+      - Led and mentored a cross-functional team of 10 (developers, BAs, testers), improving team velocity by 40%
+      - Established comprehensive security protocols and infrastructure review processes
+      - Created performance-based development framework for technical staff, improving retention and skill progression
+      - Collaborated with C-suite on business strategy implementation, ensuring technical alignment with company objectives
+      - Gain team trust and level up theirs coding quality to 20%
+      - Implemented DevOps best practices, resulting in 30% reduction in delivery time (from 4 hours to 3 minutes per release)
+      - Implemented Clean Code, Clean Architecture to theirs codebase, resulting in 30% reduction in code complexity, enhance the team productivity, able to develop automation testing.
+      - Experiment SvelteKit to save infrastructure cost, reduction worksite performance by 30%
+      - Dropped jQuery and others unnecessary libraries to optimizing load speed
+      - Experiment AI in order to improve coding quality and productivity
+
+      Tech: Laravel, Infrastructure Management, Security Systems, Payment System, Sentry issue tracking, Real-time Monitoring, DDoS Protection, Clean Architecture, Clean Code
+
+      Management:
+
+      - Team Size: 10 direct reports
+      - Budget: Managed infrastructure costs of $50K annually, saved 40%
+      - Security: Reduced security incidents from 10+ to less than 1, prevent more than 30 DDos attack per week
+      - Product issues: Reduced product issues from 47k event/month down to less than 300 (Tracked by Sentry)
+      - Productivity: Increased team productivity by 40%
+      - Review and mentor team members to level up their skills that match the company needs
+      - Make a master plan for the whole year
+
+  - role: Senior Software Engineer
+    time: 2018 - 2023
+    company: Equilab, Gothenburg Sweden
+    link: https://equilab.horse
+    details: |
+      Led cross-platform development and technical initiatives for a global equestrian platform.
+
+      Key Achievements:
+
+      - Delivered critical real-time chat system in 1 week during COVID-19, driving 30% increase in user engagement and enabling community connection during lockdown
+      - Spearheaded TypeScript migration across codebase, reducing production incidents by 40% and improving development velocity through enhanced IDE support
+      - Architected hybrid mobile solution combining native (iOS/Swift, Android/Kotlin) performance with React Native code sharing, maintaining 4.5+ App Store rating
+      - Scaled Firebase backend infrastructure to support 100K+ daily active users while optimizing real-time data synchronization
+      - Engineered social networking feed with interactive features (comments, likes, shares), increasing user retention by 25% and daily active posts by 50%
+      - Implemented feature flag system using Firebase Remote Config, enabling A/B testing and gradual feature rollouts while reducing deployment risks
+      - Integrated MixPanel analytics to track user behavior and feature adoption, providing data-driven insights for product decisions
+      - Collaborated with product and design teams to refine features through rapid prototyping and iterative development, resulting in 35% improvement in user satisfaction scores
+
+      Tech: Swift, Kotlin, React Native, TypeScript, Firebase Eco System, MixPanel
+
+  - role: Junior Software Engineer
+    time: 2017 - 2018
+    company: AgileTech, Hanoi Vietnam
+    link: https://agiletech.vn
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+
+  - role: Projectionist & IT Helpdesk
+    time: 2013 - 2017
+    company: CGV Cinema, QuangNinh Vietnam
+    link: https://cgv.vn
+    details: |
+      Key Achievements:
+      - Programmed and managed digital cinema systems and film scheduling, ensuring seamless screening operations for 8+ theaters
+      - Provided comprehensive IT support across POS systems, network infrastructure, and computer hardware, reducing system downtime by 30%
+      - Developed efficient troubleshooting protocols for common technical issues, cutting average resolution time from 45 to 15 minutes
+      - Coordinated with lounge team on ticket verification and hall maintenance, maintaining 98% customer satisfaction rating
+      - Demonstrated strong cross-functional collaboration by supporting multiple departments during peak hours
+
+      Tech: Digital Cinema Systems, POS Systems, Network Infrastructure, Hardware Troubleshooting
+
+  - role: Junior Software Engineer
+    time: 2011 - 2013
+    company: FTL, Hanoi Vietnam
+    link: http://ftl.vn/
+    details: |
+      First role post-graduation developing game server systems for Mobifone.
+      Key Achievements:
+
+      - Built multi-channel mini-games serving as online examination platforms across USSD, WAP, and SMS interfaces
+      - Led 3-person team in mini-game development initiatives, improving delivery time by 30%
+      - Managed high-concurrency game servers using Java Core and Oracle Database
+      - Collaborated in 10-member team to deliver carrier-grade gaming solutions
+
+      Tech: Java Core, Oracle Database, USSD, SMS Gateway, WAP
+      Team: 10 members
+      Project: Game Server Platform for Mobifone (Major Vietnamese Telecom)
+
+certifications:
+  title: Certifications
+  list:
+  - name: CV Builder
+    start: 2020
+    end: 2021
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.google.com
+    credentialname: Google
+    details: |
+      Details about cert. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
+
+      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      justo diam viverra velit, sed rhoncus leo leo eu justo.
+      Suspendisse placerat risus ante, sed porta nisi blandit at.
+  - name: Git learning
+    start: 2019
+    end:
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.github.com
+    credentialname: Github
+    details: |
+      Older certification. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
+
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+  - title: DevStudio
+    link: "#"
+    tagline: "A responsive website template designed to help web developers/designers market their services."
+
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+  - title: The Art of Computer Programming
+    link: "#"
+    authors: Donald E. Knuth
+    conference: Addison-Wesley, 1968
+
+  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    link: "#"
+    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+  - title: A syntax directed compiler for Algol 60
+    link: "#"
+    authors: Edgar T. Irons
+    conference: "Comm. ACM 4 (1961), 51–55"
+
+recommendations:
+  title: Recommendations
+  list:
+  - person: Simon Bengtsson
+    email:
+    phone:
+    facebook: https://www.facebook.com/sim.bengtsson
+    role: CTO at equilab.horse
+    recommendation: |
+      Tuan was an invaluable asset to our team at Equilab, showcasing expertise in React Native, Native iOS/Android development, Node.js, and various Firebase technologies. His contribution to various features such as, Safety Tracking and enhancing the Social Experience was pivotal. Tuan combines technical skill with clear communication and teamwork, making complex projects manageable and successful.
+  - person: Adam Torkelsson
+    email:
+    phone:
+    role: CEO at equilab.horse
+    facebook: https://www.facebook.com/adam.torkelsson
+    recommendation: |
+      Tuan was a valuable member of our team at Equilab, consistently delivering high-quality work that met or exceeded expectations. He was always willing to go the extra mile and a true team player. He is also a creative problem solver and is always up for a challenge. I highly recommend Tuán to any company looking for a top-notch developer. He is a highly skilled developer with a deep understanding of React Native, Node.js, Kotlin, and Swift.
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Python
+    level: 80%
+
+  - name: Javascript & TypeScript
+    level: 95%
+
+  - name: React Native & Expo
+    level: 95%
+
+  - name: Svelte & SvelteKit
+    level: 92%
+
+  - name: HTML5
+    level: 90%
+
+  - name: Web Performance
+    level: 90%
+
+  - name: TailwindCSS & DaisyUI
+    level: 90%
+
+  - name: Management & Leadership
+    level: 85%
+
+  - name: DDos Protection
+    level: 80%
+
+footer: >
+  Last updated: 2 February 2025
