@@ -1,6 +1,21 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+og-meta:
+  site_name: cv.anhtuank7c.dev
+  preview: preview.webp # place a 800x354 picture inside /assets/images/ folder
+  twitter: anhtuank7c # Twitter username
+  facebook_publisher: tuanna065 # Facebook username
+  title: Tuan Nguyen Anh | Full Stack Developer & CTO
+  author: Tuan Nguyen Anh
+  language: en-US
+  published: 2025-02-05T16:31:37+07:00
+  modified: 2025-02-09T16:31:37+07:00
+  geo:
+    placename: QuangNinh, Vietnam
+    region: VN-QN
+    position: 21.007273475106725, 106.8589212253367
+    ICBM: 21.007273475106725, 106.8589212253367
 
 sidebar:
   position: left # position of the sidebar : left or right

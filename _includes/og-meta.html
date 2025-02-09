@@ -1,0 +1,40 @@
+{% assign meta = site.data.data.og-meta %}
+
+<!-- META FOR FACEBOOK -->
+<meta property="og:site_name" content="{{ meta.site_name }}" />
+<meta property="og:rich_attachment" content="true" />
+<meta property="og:type" content="article" />
+<meta property="article:publisher" content="https://www.facebook.com/{{ meta.facebook_publisher }}/" />
+<meta property="og:url" itemprop="url" content="{{ site.url }}" />
+<meta property="og:image" itemprop="thumbnailUrl" content="{{ site.url }}/assets/images/{{ meta.preview }}" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="354" />
+<meta content="{{ meta.title }}" itemprop="headline" property="og:title" />
+<meta content="{{ site.description | default: 'A beautiful Jekyll theme for creating resume' }}" itemprop="description"
+  property="og:description" />
+<meta content="news" itemprop="genre" name="medium" />
+<meta content="{{ meta.language }}" itemprop="inLanguage" />
+<meta content="Tin nhanh VnExpress" itemprop="sourceOrganization" name="source" />
+<meta content="{{ meta.published }}" itemprop="datePublished" name="pubdate" />
+<meta content="{{ meta.modified }}" itemprop="dateModified" name="lastmod" />
+<meta content="{{ meta.published }}" itemprop="dateCreated" />
+<meta name="copyright" content="{{ meta.author }}" />
+<meta name="author" content="{{ meta.author }}" />
+<meta name="robots" content="noarchive, max-image-preview:large, index" />
+<meta name="googlebot" content="noarchive" />
+<meta name="geo.placename" content="{{ meta.geo.placename }}" />
+<meta name="geo.region" content="{{ meta.geo.region }}" />
+<meta name="geo.position" content="{{ meta.geo.position }}" />
+<meta name="ICBM" content="{{ meta.geo.ICBM }}" />
+<meta name="revisit-after" content="days" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" value="summary" />
+<meta name="twitter:url" content="{{ site.url }}" />
+<meta name="twitter:title" content="{{ meta.title }}" />
+<meta name="twitter:description"
+  content="{{ site.description | default: 'A beautiful Jekyll theme for creating resume' }}" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/{{ meta.preview }}" />
+<meta name="twitter:site" content="@{{ meta.twitter }}" />
+<meta name="twitter:creator" content="@{{ meta.twitter }}" />
+<!-- End Twitter Card -->
