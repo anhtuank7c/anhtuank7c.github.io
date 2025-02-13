@@ -129,6 +129,7 @@ experiences:
     link: https://hqgroups.vn
     details: |
       Led technology strategy and team management for a multi-service digital enterprise.
+
       Key Achievements:
 
       - Restructured payment systems and managed 500+ Laravel-based ecommerce sites, ensuring 95% uptime
@@ -323,7 +324,7 @@ projects:
     desc: |
       Web backend for Murten to manage the whole system
 
-      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code, TailwindCSS
 
   - title: unsereRegion - Shopping Window
     type: backend
@@ -331,7 +332,7 @@ projects:
     desc: |
       Web backend for shop owner, they can manage theirs ads posts
 
-      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code, TailwindCSS
 
   - title: unsereRegion - Authority
     type: backend
@@ -339,7 +340,7 @@ projects:
     desc: |
       Web backend for authority, the government can manage their political posts
 
-      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code, TailwindCSS
 
   - title: Inspiration Mojo
     type: mobile app
@@ -357,7 +358,7 @@ projects:
     desc: |
       Web backend where the consultant can manage their psychological course
 
-      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code
+      Tech: SvelteKit, Firebase, TypeScript, Clean Architecture, Clean Code, TailwindCSS
 
   - title: "Equilab: Horse & Riding App"
     type: mobile app
@@ -393,7 +394,7 @@ projects:
     desc: |
       Company website where they can manage theirs posts
 
-      Tech: SvelteKit, Markdown, TypeScript, Clean Architecture, Clean Code
+      Tech: SvelteKit, Markdown, TypeScript, Clean Architecture, Clean Code, TailwindCSS
 
   - title: "In Ấn I-MAP"
     type: web
