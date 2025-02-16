@@ -30,6 +30,11 @@ recommendations %}
           <a href="{{recommendation.facebook}}"><i class="fas fa-brands fa-facebook-f mr-1"></i>Facebook</a>
         </div>
         {% endif %}
+        {% if recommendation.linkedin %}
+        <div>
+          <a href="{{recommendation.linkedin}}"><i class="fas fa-brands fa-facebook-f mr-1"></i>Linkedin</a>
+        </div>
+        {% endif %}
         {% if recommendation.phone %}
         <div>
           <a href="tel:{{recommendation.phone}}">
