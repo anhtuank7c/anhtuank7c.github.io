@@ -450,6 +450,7 @@ recommendations:
     email:
     phone:
     facebook: https://www.facebook.com/sim.bengtsson
+    linkedin: https://www.linkedin.com/in/simon-bengtsson-dev
     role: CTO at equilab.horse
     recommendation: |
       Tuan was an invaluable asset to our team at Equilab, showcasing expertise in React Native, Native iOS/Android development, Node.js, and various Firebase technologies. His contribution to various features such as, Safety Tracking and enhancing the Social Experience was pivotal. Tuan combines technical skill with clear communication and teamwork, making complex projects manageable and successful.
@@ -458,8 +459,17 @@ recommendations:
     phone:
     role: CEO at equilab.horse
     facebook: https://www.facebook.com/adam.torkelsson
+    linkedin: https://www.linkedin.com/in/adamtorkelsson
     recommendation: |
       Tuan was a valuable member of our team at Equilab, consistently delivering high-quality work that met or exceeded expectations. He was always willing to go the extra mile and a true team player. He is also a creative problem solver and is always up for a challenge. I highly recommend Tuán to any company looking for a top-notch developer. He is a highly skilled developer with a deep understanding of React Native, Node.js, Kotlin, and Swift.
+
+  - person: Tobias Olausson
+    email:
+    phone:
+    role: Head of Engineering at equilab.horse
+    linkedin: https://www.linkedin.com/in/tobias-olausson-47479a86
+    recommendation: |
+      Tuan was a talented developer in our team at Equilab. He has a passion for code and is a consistently positive and selfless person who will work to bring the whole team forward. Tuan worked confidently across our codebase, with an extra focus on React Native.
 
 skills:
   title: Skills &amp; Proficiency
